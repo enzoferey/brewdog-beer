@@ -95,6 +95,7 @@
   "devDependencies": {
     "node-sass": "^4.9.3",
     "plop": "^2.1.0",
+    "prettier": "^1.14.2",
     "sass-loader": "^7.1.0"
   }
 }
