@@ -1,0 +1,13 @@
+$gradient-orange: linear-gradient(to top left, #d4145a, #ed7846);
+$gradient-green: linear-gradient(to top left, #009245, #a2cd2e);
+$gradient-purple: linear-gradient(to top left, #662d8c, #bc2380);
+$gradient-blue: linear-gradient(to top left, #00a8c5, #a4e097);
+$gradient-yellow: linear-gradient(to top left, #fb872b, #e5c024);
+
+:export {
+  gradientOrange: $gradient-orange;
+  gradientGreen: $gradient-green;
+  gradientPurple: $gradient-purple;
+  gradientBlue: $gradient-blue;
+  gradientYellow: $gradient-yellow;
+}

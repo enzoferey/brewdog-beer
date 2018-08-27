@@ -1,0 +1,45 @@
+$height: 290px;
+
+.main {
+  width: 100%;
+  height: $height;
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+}
+
+.photo {
+  position: relative;
+  width: $height;
+  height: $height;
+  padding: 43px 0;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: rgba(white, 0.1);
+
+  > img {
+    height: 100%;
+  }
+}
+
+.details {
+  flex: 1;
+  height: 100%;
+  padding: 32px 40px;
+  box-sizing: border-box;
+}
+
+.name {
+  font-size: 32px;
+  margin: 0 0 5px;
+}
+
+.attributes {
+  font-size: 24px;
+  color: #eeeeee;
+}
+
+.description {
+  font-size: 20px;
+  margin: 20px 0 0;
+}

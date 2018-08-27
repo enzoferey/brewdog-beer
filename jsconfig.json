@@ -5,7 +5,8 @@
       "components/*": ["./src/components/*"],
       "pages/*": ["./src/pages/*"],
       "utils/*": ["./src/utils/*"],
-      "db": ["./src/database.js"]
+      "db": ["./src/database.js"],
+      "theme": ["./src/theme.scss"]
     }
   },
   "exclude": ["node_modules", "dist"]
