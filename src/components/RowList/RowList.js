@@ -22,17 +22,48 @@ const getElement = type => {
   }
 };
 
+const getWaiting = (type, time, startDone, middleDone) => {
+  return (
+    type === "hop" &&
+    ((time === "middle" && !startDone) || (time === "end" && !middleDone))
+  );
+};
+
+const getDuration = (type, temperatures) => {
+  if (type === "method") {
+    return temperatures.reduce(
+      (prev, temperature) => prev + temperature.duration,
+      0
+    );
+  }
+
+  return 0;
+};
+
 const DefaultItem = props => <p>{JSON.stringify(props)}</p>;
 
-const RowList = ({ title, type, rows }) => {
+const RowList = ({ title, type, rows, startDone, middleDone, setDone }) => {
   const Item = getElement(type);
 
   return (
     <div className={style.main}>
       <h2 className={style.title}>{title}</h2>
-      {rows.map(row => (
-        <RowItem key={uuid()} item={<Item {...row} />} />
-      ))}
+      {rows.map((row, index) => {
+        const waiting = getWaiting(type, row.add, startDone, middleDone);
+        const duration = getDuration(type, row.mash_temp);
+        return (
+          <RowItem
+            key={uuid()}
+            item={<Item {...row} />}
+            done={row.done}
+            duration={duration}
+            waiting={waiting}
+            callback={() => {
+              setDone(index);
+            }}
+          />
+        );
+      })}
     </div>
   );
 };
@@ -41,6 +72,9 @@ RowList.propTypes = {
   title: PropTypes.string,
   type: PropTypes.oneOf(["hop", "malt", "method"]),
   rows: PropTypes.arrayOf(PropTypes.object),
+  startDone: PropTypes.bool,
+  middleDone: PropTypes.bool,
+  setDone: PropTypes.func,
 };
 
 export default RowList;

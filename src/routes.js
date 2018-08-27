@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Immutable from "immutable";
 
 import { getAllBeers } from "db";
 import mockBeers from "./response.json";
@@ -9,20 +10,22 @@ import Beer from "pages/Beer";
 import NotFound from "pages/NotFound";
 import Spinner from "pages/Spinner";
 
+const WAIT_TIME = 400; // maximum time to wait before display a spinner
+
 class Routes extends React.Component {
   state = {
-    beers: [],
+    beers: Immutable.List(),
     fetching: true,
-    showSpinner: false,
+    spinner: false,
   };
 
   componentDidMount = async () => {
     try {
       const response = await getAllBeers();
-      this.setBeers(response.data);
+      this.setBeers(Immutable.fromJS(response.data));
     } catch (e) {
-      // Proper error display should be done here instead
-      this.setBeers(mockBeers);
+      // Proper error display should be done here instead of forcing an always working demo
+      this.setBeers(Immutable.fromJS(mockBeers));
     }
   };
 
@@ -35,25 +38,62 @@ class Routes extends React.Component {
     this.setState({ beers, fetching: false });
   };
 
+  setElementDone = (beerId, index, path) => {
+    const { beers } = this.state;
+
+    const beerIndex = beers.findIndex(beer => beer.get("id") === beerId);
+    const updatedBeers = beers.update(beerIndex, beer =>
+      beer.updateIn(path, list => {
+        // Edge case for ambiguious method being an array
+        if (Immutable.List.isList(list)) {
+          return list.update(index, element => element.set("done", true));
+        } else {
+          return list.set("done", true);
+        }
+      })
+    );
+
+    this.setState({
+      beers: updatedBeers,
+    });
+  };
+
+  setHopDone = (beerId, hopIndex) => {
+    this.setElementDone(beerId, hopIndex, ["ingredients", "hops"]);
+  };
+
+  setMaltDone = (beerId, maltIndex) => {
+    this.setElementDone(beerId, maltIndex, ["ingredients", "malt"]);
+  };
+
+  setMethodDone = (beerId, methodIndex) => {
+    this.setElementDone(beerId, methodIndex, ["method"]);
+  };
+
   showSpinner = () => {
-    this.setState({ showSpinner: true });
+    this.setState({ spinner: true });
   };
 
   withBeers = Component => props => (
-    <Component beers={this.state.beers} {...props} />
+    <Component beers={this.state.beers.toJS()} {...props} />
   );
 
+  renderBeer = props =>
+    this.withBeers(Beer)({
+      ...props,
+      setHopDone: this.setHopDone,
+      setMaltDone: this.setMaltDone,
+      setMethodDone: this.setMethodDone,
+    });
+
   render = () => {
-    const { fetching, showSpinner } = this.state;
+    const { fetching, spinner } = this.state;
 
     if (fetching) {
-      if (showSpinner) return <Spinner />;
+      if (spinner) return <Spinner />;
       else {
-        this._spinnerTimeout = setTimeout(() => {
-          this.showSpinner();
-        }, 400);
-
-        return null;
+        this._spinnerTimeout = setTimeout(this.showSpinner, WAIT_TIME);
+        return null; // don't render anything until WAIT_TIME has passed
       }
     }
 
@@ -61,7 +101,7 @@ class Routes extends React.Component {
       <Router>
         <Switch>
           <Route exact path="/" render={this.withBeers(BeerList)} />
-          <Route exact path="/:beerName" render={this.withBeers(Beer)} />
+          <Route exact path="/:beerName" render={this.renderBeer} />
           <Route component={NotFound} />
         </Switch>
       </Router>

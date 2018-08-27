@@ -6,7 +6,6 @@ class Button extends React.Component {
   state = {
     countdown: 0,
     paused: false,
-    done: false,
   };
 
   componentWillUnmount = () => {
@@ -14,8 +13,8 @@ class Button extends React.Component {
   };
 
   onClick = () => {
-    const { countdown, paused, done } = this.state;
-    const { delay, waiting } = this.props;
+    const { countdown, paused } = this.state;
+    const { done, delay, waiting } = this.props;
 
     if (!waiting) {
       if (delay > 0 && !done) {
@@ -32,9 +31,15 @@ class Button extends React.Component {
           this.setCountdown(countdown);
         }
       } else {
-        this.setState({ done: true });
+        // No countdown
+        this.setDone();
       }
     }
+  };
+
+  setDone = () => {
+    const { callback } = this.props;
+    if (callback) callback();
   };
 
   clearCountdown = () => {
@@ -54,16 +59,16 @@ class Button extends React.Component {
     const newCountdown = countdown - 1;
     this.setState({ countdown: newCountdown });
 
-    // Check donw
+    // Check done
     if (newCountdown === 0) {
-      this.setState({ done: true });
+      this.setDone();
       this.clearCountdown();
     }
   };
 
   getLabel = () => {
-    const { done, countdown } = this.state;
-    const { waiting } = this.props;
+    const { countdown } = this.state;
+    const { done, waiting } = this.props;
 
     if (waiting) return "Complete prev";
     if (done) return "Added !";
@@ -100,8 +105,10 @@ class Button extends React.Component {
 }
 
 Button.propTypes = {
+  done: PropTypes.bool,
   delay: PropTypes.number,
   waiting: PropTypes.bool,
+  callback: PropTypes.func,
 };
 
 export default Button;
