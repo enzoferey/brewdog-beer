@@ -6,7 +6,11 @@ Web app to display beers from https://punkapi.com/documentation/v2
 
 [TODO]
 
-## Architecture
+## Architecture choices
+
+- Given the simplicity of the app, the Route files holds the app state like a Redux store would do. If the app grows in the future Context API can be used to avoid prop drillings and I'm a believer that Redux should only be used when it makes sense.
+
+- The app always asks for the whole beer endpoint, even when a beer page is loaded directly so it doesn't need all the data at first. The good thing about it is that user won't have wait time any more in the future. The bad thing is that depending on the number of items expected it can add an additional wait time upfront. This could be discussed with the product team to match their expectations.
 
 ## Notes
 
