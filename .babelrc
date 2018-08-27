@@ -1,0 +1,17 @@
+{
+  "presets": ["react-app"],
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "alias": {
+          "components": "./src/components",
+          "pages": "./src/pages",
+          "utils": "./src/utils",
+          "db": "./src/database.js"
+        },
+        "extensions": [".js", ".json"]
+      }
+    ]
+  ]
+}
