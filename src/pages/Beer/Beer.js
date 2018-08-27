@@ -2,8 +2,10 @@ import React from "react";
 import PropTypes from "prop-types";
 import style from "./beer.scss";
 
-import BeerDetails from "components/BeerDetails";
 import NotFound from "pages/NotFound";
+
+import BeerDetails from "components/BeerDetails";
+import RowList from "components/RowList";
 
 const Beer = ({ beers, match }) => {
   const urlBeer = match.params.beerName;
@@ -16,10 +18,22 @@ const Beer = ({ beers, match }) => {
       />
     );
 
-  const { image_url: image, ...rest } = beer;
+  const {
+    image_url: image,
+    ingredients: { malt, hops },
+    method,
+    ...rest
+  } = beer;
+
+  // Ambiguious requirement as method field is an object in the API
+  const methodRows = Array.isArray(method) ? method : [method];
+
   return (
     <div className={style.main}>
       <BeerDetails image={image} {...rest} />
+      <RowList title="Hops" type="hop" rows={hops} />
+      <RowList title="Malts" type="malt" rows={malt} />
+      <RowList title="Methods" type="method" rows={methodRows} />
     </div>
   );
 };
