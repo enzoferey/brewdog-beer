@@ -1,3 +1,39 @@
 .main {
-	color: green;
+  display: inline-block;
+  position: relative;
+  width: 150px;
+  height: 50px;
+  background-color: #f44336;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+
+  &.waiting {
+    background-color: grey;
+    cursor: not-allowed;
+  }
+}
+
+.label {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  z-index: 2;
+}
+
+.progress {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  z-index: 1;
+  background: #d32f2f;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+
+  &.active {
+    opacity: 1;
+  }
 }

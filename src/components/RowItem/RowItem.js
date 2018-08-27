@@ -7,7 +7,7 @@ import Button from "components/Button";
 const RowItem = ({ item }) => (
   <div className={style.main}>
     {item}
-    <Button />
+    <Button delay={5} waiting={false} />
   </div>
 );
 
