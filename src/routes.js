@@ -29,7 +29,7 @@ class Routes extends React.Component {
       <Router>
         <Switch>
           <Route exact path="/" render={this.withBeers(BeerList)} />
-          <Route exact path="/:beerName" render={this.withBeers(Beer)} />
+          <Route path="/:beerName" render={this.withBeers(Beer)} />
         </Switch>
       </Router>
     );
