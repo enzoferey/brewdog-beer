@@ -4,14 +4,19 @@ import style from "./beer-list.scss";
 
 import { Link } from "react-router-dom";
 
+import BeerDetails from "components/BeerDetails";
+import PageContainer from "components/PageContainer";
+
 const BeerList = ({ beers }) => (
-  <div className={style.main}>
-    {beers.map(beer => (
-      <Link key={beer.name} to={beer.name}>
-        {beer.name}
+  <PageContainer>
+    {beers.map(({ name, image_url, ...rest }) => (
+      <Link key={name} to={name} className={style.link}>
+        <div className={style.beerContainer}>
+          <BeerDetails name={name} image={image_url} {...rest} />
+        </div>
       </Link>
     ))}
-  </div>
+  </PageContainer>
 );
 
 BeerList.propTypes = {
