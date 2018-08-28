@@ -1,14 +1,29 @@
-import React from "react";
+import React, { Fragment } from "react";
 import PropTypes from "prop-types";
 import style from "./hop.scss";
 
+import weigthIcon from "components/Table/weight.png";
+import timeIcon from "components/Table/time.png";
+import labelIcon from "components/Table/label.png";
+
+import TableRowSection from "components/TableRowSection";
+import { IconLabel } from "components/TableRow";
+
 const Hop = ({ name, amount: { value, unit }, add, attribute }) => (
-  <div className={style.main}>
-    <p className={style.name}>{name}</p>
-    <p className={style.amount}>{`${value} ${unit}`}</p>
-    <p className={style.time}>{add}</p>
-    <p className={style.attribute}>{attribute}</p>
-  </div>
+  <Fragment>
+    <TableRowSection>
+      <span className={style.name}>{name}</span>
+    </TableRowSection>
+    <TableRowSection>
+      <IconLabel icon={weigthIcon} label={`${value} ${unit}`} />
+    </TableRowSection>
+    <TableRowSection>
+      <IconLabel icon={timeIcon} label={add} />
+    </TableRowSection>
+    <TableRowSection>
+      <IconLabel icon={labelIcon} label={attribute} />
+    </TableRowSection>
+  </Fragment>
 );
 
 Hop.propTypes = {
