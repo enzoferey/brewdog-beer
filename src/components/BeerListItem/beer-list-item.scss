@@ -6,6 +6,16 @@ $height: 290px;
   display: flex;
   flex-wrap: wrap;
   color: white;
+
+  &:hover {
+    .photo > img {
+      transform: rotate(10deg) scale(1.1);
+    }
+
+    .photo {
+      width: calc(#{$height} + 15px);
+    }
+  }
 }
 
 .photo {
@@ -16,9 +26,11 @@ $height: 290px;
   box-sizing: border-box;
   text-align: center;
   background-color: rgba(white, 0.1);
+  transition: all 0.3s;
 
   > img {
     height: 100%;
+    transition: all 0.3s;
   }
 }
 
