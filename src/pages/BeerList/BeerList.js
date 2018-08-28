@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 import getGradient from "utils/getGradient";
 
-import withBeers from "contexts/withBeers";
+import { withBeers } from "contexts/BeerContext";
 
 import PageContainer from "components/PageContainer";
 import BeerListItem from "components/BeerListItem";

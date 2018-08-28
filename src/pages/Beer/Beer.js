@@ -10,7 +10,7 @@ import getGradientSvg from "utils/getGradientSvg";
 import getGradient from "utils/getGradient";
 import checkHops from "utils/checkHops";
 
-import withBeers from "contexts/withBeers";
+import { withBeers } from "contexts/BeerContext";
 
 import NotFound from "pages/NotFound";
 
