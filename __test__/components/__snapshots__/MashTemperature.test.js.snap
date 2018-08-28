@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className={undefined}
+>
+  <div
+    className={undefined}
+  >
+    <span>
+      1
+    </span>
+  </div>
+  <img
+    alt="Weight icon"
+    className={undefined}
+    src="temperature.png"
+  />
+  <span
+    className={undefined}
+  >
+    19ºC
+  </span>
+  <span
+    className={undefined}
+  >
+    10s
+  </span>
+</div>
+`;
