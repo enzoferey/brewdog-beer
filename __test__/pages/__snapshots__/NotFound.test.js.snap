@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly \`message\` prop 1`] = `
+<div
+  className={undefined}
+>
+  <h2>
+    hello
+  </h2>
+  <a
+    href="/"
+    onClick={[Function]}
+  >
+    Go to Home
+  </a>
+</div>
+`;
+
+exports[`renders correctly 1`] = `
+<div
+  className={undefined}
+>
+  <h2>
+    Woops, this page doesn't seem to exist
+  </h2>
+  <a
+    href="/"
+    onClick={[Function]}
+  >
+    Go to Home
+  </a>
+</div>
+`;
