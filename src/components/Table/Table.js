@@ -22,14 +22,14 @@ const getElement = type => {
   }
 };
 
-const getWaiting = (type, time, startDone, middleDone) => {
+export const getWaiting = (type, time, startDone, middleDone) => {
   return (
     type === "hop" &&
     ((time === "middle" && !startDone) || (time === "end" && !middleDone))
   );
 };
 
-const getDuration = (type, temperatures) => {
+export const getDuration = (type, temperatures) => {
   if (type === "method") {
     return temperatures.reduce(
       (prev, temperature) => prev + temperature.duration,
@@ -40,6 +40,7 @@ const getDuration = (type, temperatures) => {
   return 0;
 };
 
+// Just a placeholder in case somethind else is passed
 const DefaultItem = props => <p>{JSON.stringify(props)}</p>;
 
 const Table = ({

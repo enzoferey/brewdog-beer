@@ -1,3 +1,27 @@
+export const temperaturesSingle = [
+  {
+    duration: 10,
+  },
+];
+
+export const temperaturesNull = [
+  {
+    duration: 10,
+  },
+  {
+    duration: null,
+  },
+];
+
+export const temperaturesMultiple = [
+  {
+    duration: 10,
+  },
+  {
+    duration: 5,
+  },
+];
+
 export const hops = [
   {
     name: "Fuggles",

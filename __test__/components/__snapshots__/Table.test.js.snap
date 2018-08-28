@@ -1,0 +1,527 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className={undefined}
+>
+  <h2
+    className={undefined}
+  >
+    My title
+  </h2>
+  <div
+    className={undefined}
+  >
+    <div
+      className={undefined}
+    >
+      <div
+        className={undefined}
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      >
+        <span
+          className={undefined}
+        >
+          Fuggles
+        </span>
+      </div>
+      <div
+        className={undefined}
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      >
+        <img
+          alt=""
+          className={undefined}
+          src="weight.png"
+        />
+        <span
+          className={undefined}
+        >
+          25 grams
+        </span>
+      </div>
+      <div
+        className={undefined}
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      >
+        <img
+          alt=""
+          className={undefined}
+          src="time.png"
+        />
+        <span
+          className={undefined}
+        >
+          start
+        </span>
+      </div>
+      <div
+        className={undefined}
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      >
+        <img
+          alt=""
+          className={undefined}
+          src="label.png"
+        />
+        <span
+          className={undefined}
+        >
+          bitter
+        </span>
+      </div>
+      <div
+        className={undefined}
+      >
+        <div
+          className="undefined "
+          onClick={[Function]}
+          style={
+            Object {
+              "background": "white",
+            }
+          }
+        >
+          <p
+            className={undefined}
+          >
+            Add
+          </p>
+          <div
+            className="undefined "
+            style={
+              Object {
+                "width": "NaN%",
+              }
+            }
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className={undefined}
+    >
+      <div
+        className={undefined}
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      >
+        <span
+          className={undefined}
+        >
+          First Gold
+        </span>
+      </div>
+      <div
+        className={undefined}
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      >
+        <img
+          alt=""
+          className={undefined}
+          src="weight.png"
+        />
+        <span
+          className={undefined}
+        >
+          25 grams
+        </span>
+      </div>
+      <div
+        className={undefined}
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      >
+        <img
+          alt=""
+          className={undefined}
+          src="time.png"
+        />
+        <span
+          className={undefined}
+        >
+          start
+        </span>
+      </div>
+      <div
+        className={undefined}
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      >
+        <img
+          alt=""
+          className={undefined}
+          src="label.png"
+        />
+        <span
+          className={undefined}
+        >
+          bitter
+        </span>
+      </div>
+      <div
+        className={undefined}
+      >
+        <div
+          className="undefined "
+          onClick={[Function]}
+          style={
+            Object {
+              "background": "white",
+            }
+          }
+        >
+          <p
+            className={undefined}
+          >
+            Add
+          </p>
+          <div
+            className="undefined "
+            style={
+              Object {
+                "width": "NaN%",
+              }
+            }
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className={undefined}
+    >
+      <div
+        className={undefined}
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      >
+        <span
+          className={undefined}
+        >
+          Fuggles
+        </span>
+      </div>
+      <div
+        className={undefined}
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      >
+        <img
+          alt=""
+          className={undefined}
+          src="weight.png"
+        />
+        <span
+          className={undefined}
+        >
+          37.5 grams
+        </span>
+      </div>
+      <div
+        className={undefined}
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      >
+        <img
+          alt=""
+          className={undefined}
+          src="time.png"
+        />
+        <span
+          className={undefined}
+        >
+          middle
+        </span>
+      </div>
+      <div
+        className={undefined}
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      >
+        <img
+          alt=""
+          className={undefined}
+          src="label.png"
+        />
+        <span
+          className={undefined}
+        >
+          flavour
+        </span>
+      </div>
+      <div
+        className={undefined}
+      >
+        <div
+          className="undefined undefined"
+          onClick={[Function]}
+          style={
+            Object {
+              "background": undefined,
+            }
+          }
+        >
+          <p
+            className={undefined}
+          >
+            Add prev
+          </p>
+          <div
+            className="undefined "
+            style={
+              Object {
+                "width": "NaN%",
+              }
+            }
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className={undefined}
+    >
+      <div
+        className={undefined}
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      >
+        <span
+          className={undefined}
+        >
+          First Gold
+        </span>
+      </div>
+      <div
+        className={undefined}
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      >
+        <img
+          alt=""
+          className={undefined}
+          src="weight.png"
+        />
+        <span
+          className={undefined}
+        >
+          37.5 grams
+        </span>
+      </div>
+      <div
+        className={undefined}
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      >
+        <img
+          alt=""
+          className={undefined}
+          src="time.png"
+        />
+        <span
+          className={undefined}
+        >
+          middle
+        </span>
+      </div>
+      <div
+        className={undefined}
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      >
+        <img
+          alt=""
+          className={undefined}
+          src="label.png"
+        />
+        <span
+          className={undefined}
+        >
+          flavour
+        </span>
+      </div>
+      <div
+        className={undefined}
+      >
+        <div
+          className="undefined undefined"
+          onClick={[Function]}
+          style={
+            Object {
+              "background": undefined,
+            }
+          }
+        >
+          <p
+            className={undefined}
+          >
+            Add prev
+          </p>
+          <div
+            className="undefined "
+            style={
+              Object {
+                "width": "NaN%",
+              }
+            }
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className={undefined}
+    >
+      <div
+        className={undefined}
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      >
+        <span
+          className={undefined}
+        >
+          Cascade
+        </span>
+      </div>
+      <div
+        className={undefined}
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      >
+        <img
+          alt=""
+          className={undefined}
+          src="weight.png"
+        />
+        <span
+          className={undefined}
+        >
+          37.5 grams
+        </span>
+      </div>
+      <div
+        className={undefined}
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      >
+        <img
+          alt=""
+          className={undefined}
+          src="time.png"
+        />
+        <span
+          className={undefined}
+        >
+          end
+        </span>
+      </div>
+      <div
+        className={undefined}
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      >
+        <img
+          alt=""
+          className={undefined}
+          src="label.png"
+        />
+        <span
+          className={undefined}
+        >
+          flavour
+        </span>
+      </div>
+      <div
+        className={undefined}
+      >
+        <div
+          className="undefined undefined"
+          onClick={[Function]}
+          style={
+            Object {
+              "background": undefined,
+            }
+          }
+        >
+          <p
+            className={undefined}
+          >
+            Add prev
+          </p>
+          <div
+            className="undefined "
+            style={
+              Object {
+                "width": "NaN%",
+              }
+            }
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
