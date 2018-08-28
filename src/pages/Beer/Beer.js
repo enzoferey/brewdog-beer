@@ -10,6 +10,8 @@ import getGradientSvg from "utils/getGradientSvg";
 import getGradient from "utils/getGradient";
 import checkHops from "utils/checkHops";
 
+import withBeers from "contexts/withBeers";
+
 import NotFound from "pages/NotFound";
 
 import PageContainer from "components/PageContainer";
@@ -102,4 +104,4 @@ Beer.propTypes = {
   setMethodDone: PropTypes.func,
 };
 
-export default Beer;
+export default withBeers(Beer);

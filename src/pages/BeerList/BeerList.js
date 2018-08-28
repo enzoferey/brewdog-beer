@@ -6,6 +6,8 @@ import { Link } from "react-router-dom";
 
 import getGradient from "utils/getGradient";
 
+import withBeers from "contexts/withBeers";
+
 import PageContainer from "components/PageContainer";
 import BeerListItem from "components/BeerListItem";
 
@@ -33,4 +35,4 @@ BeerList.propTypes = {
   beers: PropTypes.arrayOf(PropTypes.object),
 };
 
-export default BeerList;
+export default withBeers(BeerList);
