@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className={undefined}
+>
+  <p>
+    hi
+  </p>
+  <div
+    className={undefined}
+  >
+    <div
+      className="undefined "
+      onClick={[Function]}
+      style={
+        Object {
+          "background": "white",
+        }
+      }
+    >
+      <p
+        className={undefined}
+      >
+        Add
+      </p>
+      <div
+        className="undefined "
+        style={
+          Object {
+            "width": "100%",
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;
