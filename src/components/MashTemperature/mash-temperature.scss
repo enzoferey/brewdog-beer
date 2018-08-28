@@ -1,3 +1,27 @@
+$circle-index-size: 23px;
+
 .main {
-	color: green;
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.indexContainer {
+  width: $circle-index-size;
+  height: $circle-index-size;
+  border-radius: 50%;
+  background-color: #333;
+  color: white;
+  font-size: 14px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.duration {
+  border: 1px solid #333333;
+  border-radius: 50px;
+  padding: 2px 5px;
+  margin-left: 10px;
 }

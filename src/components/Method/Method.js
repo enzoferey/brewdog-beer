@@ -1,7 +1,13 @@
-import React from "react";
+import React, { Fragment } from "react";
 import PropTypes from "prop-types";
 import style from "./method.scss";
 
+import fermentationIcon from "components/Table/fermentation.png";
+
+import getBeautifulTemp from "utils/getBeautifulTemp";
+
+import TableRowSection from "components/TableRowSection";
+import { IconLabel } from "components/TableRow";
 import MashTemperature from "components/MashTemperature";
 
 const Method = ({
@@ -11,18 +17,30 @@ const Method = ({
   },
   twist,
 }) => (
-  <div className={style.main}>
-    {tempetures.map(({ temp: { value, unit }, duration }, index) => (
-      <MashTemperature
-        key={`mash-${index}`}
-        value={value}
-        unit={unit}
-        duration={duration}
+  <Fragment>
+    <TableRowSection>
+      <div className={style.temperatures}>
+        {tempetures.map(({ temp: { value, unit }, duration }, index) => (
+          <MashTemperature
+            key={`mash-${index}`}
+            index={index + 1}
+            value={value}
+            unit={unit}
+            duration={duration}
+          />
+        ))}
+      </div>
+    </TableRowSection>
+    <TableRowSection>
+      <IconLabel
+        icon={fermentationIcon}
+        label={getBeautifulTemp(value, unit)}
       />
-    ))}
-    <p className={style.amount}>{`${value} ${unit}`}</p>
-    <p className={style.twist}>{twist}</p>
-  </div>
+    </TableRowSection>
+    <TableRowSection flex={2}>
+      <p className={style.twist}>{twist ? twist : "-"}</p>
+    </TableRowSection>
+  </Fragment>
 );
 
 const TemperaturePropTypes = PropTypes.shape({

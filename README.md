@@ -16,6 +16,8 @@ Web app to display beers from https://punkapi.com/documentation/v2
 
 - "Methods" were always referred in plural, however in the API data the field is singular and an object type rather an array. The app also works when the field is an array but it adds complexity and it's confusing.
 
+- The methods duration don't have a time unit, I assumed seconds.
+
 - You can see a lot of devDependencies but they are all related to ejecting a create-react-app. I have written many Webpack configurations from scratch but it's not worth my time here.
 
 - Libraries used in development:

@@ -1,3 +1,8 @@
-.main {
-	color: green;
+.temperatures {
+  width: 100%;
+  position: relative;
+
+  > div + div {
+    margin-top: 20px;
+  }
 }
