@@ -1,25 +1,25 @@
 import React from "react";
-import PageContainer from "components/PageContainer";
+import TableRowSection from "components/TableRowSection";
 
 const props = {
-  background: "pink",
+  flex: 2,
 };
 
 const MyText = () => <p>hi</p>;
 
 test("renders correctly", () => {
-  testSnapshot(<PageContainer />);
+  testSnapshot(<TableRowSection />);
 });
 
-test("applies `background` prop correctly", () => {
-  testSnapshot(<PageContainer {...props} />);
+test("applies `flex` prop correctly", () => {
+  testSnapshot(<TableRowSection {...props} />);
 });
 
 test("behaves like a HOC", () => {
   const wrapper = shallow(
-    <PageContainer>
+    <TableRowSection>
       <MyText />
-    </PageContainer>
+    </TableRowSection>
   );
   expect(wrapper.find(MyText).length).toBe(1);
 });
