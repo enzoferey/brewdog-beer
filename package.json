@@ -15,7 +15,11 @@
     "cacheDirectory": "./cache",
     "collectCoverage": true,
     "collectCoverageFrom": [
-      "src/**/*.{js,jsx,mjs}"
+      "src/**/*.{js,jsx,mjs}",
+      "!src/database.js",
+      "!src/index.js",
+      "!src/registerServiceWorker.js",
+      "!src/routes.js"
     ],
     "coverageThreshold": {
       "global": {
