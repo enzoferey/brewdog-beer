@@ -30,5 +30,4 @@ Web app to display beers from https://punkapi.com/documentation/v2
 - Libraries used:
 
   - `axios`: HTTP requests simplified and promises
-  - `immutable`: easier JSON state manipulation
-  - `uuid`: to have unique keys easily for loops
+  - `immutable`: easier state manipulation

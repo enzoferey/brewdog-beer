@@ -2,8 +2,6 @@ import React from "react";
 import PropTypes from "prop-types";
 import style from "./table.scss";
 
-import uuid from "uuid/v4";
-
 import theme from "theme";
 
 import TableRow from "components/TableRow";
@@ -65,7 +63,7 @@ const Table = ({
           const gradientButton = waiting ? theme.gradientGrey : gradient;
           return (
             <TableRow
-              key={uuid()}
+              key={`${title}-row-${index}`}
               item={<Item {...row} />}
               done={row.done}
               duration={duration}
