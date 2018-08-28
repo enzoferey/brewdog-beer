@@ -17,6 +17,7 @@
     "process": false,
     "global": false,
     "expect": false,
-    "test": false
+    "test": false,
+    "testSnapshot": false
   }
 }
