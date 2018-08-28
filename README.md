@@ -36,16 +36,16 @@ The app is uploaded at [https://wonderful-banach-b79042.netlify.com/](https://wo
 
 - Libraries used in development:
 
-  - `node-sass` and `sass-loader` for SASS support
-  - `babel-plugin-module-resolver`for babel aliases
-  - `plop` for code generation
-  - `prettier` for auto formatting
-  - `enzyme`, `enzyme-adapter-react-16`, `enzyme-react-16-adapter-setup` and `jest-enzyme` for Enzyme support in Jest
+  - `node-sass` & `sass-loader`: SASS support
+  - `babel-plugin-module-resolver`: babel aliases
+  - `plop`: code generation
+  - `prettier`: code auto formatting
+  - `enzyme`, `enzyme-adapter-react-16`, `enzyme-react-16-adapter-setup` & `jest-enzyme`: Enzyme support in Jest
 
 - Libraries used:
 
   - `axios`: HTTP requests simplified and promises
   - `immutable`: easier state manipulation
-  - `react-router-dom`: for app routing
+  - `react-router-dom`: app routing
 
 - This code test was done in under 20 hours.
