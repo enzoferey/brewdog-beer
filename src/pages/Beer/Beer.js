@@ -10,10 +10,10 @@ import getGradientSVG from "utils/getGradientSVG";
 
 import NotFound from "pages/NotFound";
 
-import BeerDetails from "components/BeerDetails";
-import RowList from "components/RowList";
 import PageContainer from "components/PageContainer";
 import Ovale from "components/Ovale";
+import BeerDetails from "components/BeerDetails";
+import Table from "components/Table";
 
 const checkHops = hops => {
   // Get by type
@@ -76,7 +76,7 @@ const Beer = ({ beers, match, setHopDone, setMaltDone, setMethodDone }) => {
         </Link>
         <div className={style.content}>
           <BeerDetails image={image} {...rest} />
-          <RowList
+          <Table
             title="Hops"
             type="hop"
             rows={hops}
@@ -84,13 +84,13 @@ const Beer = ({ beers, match, setHopDone, setMaltDone, setMethodDone }) => {
             middleDone={middleDone}
             setDone={hopIndex => setHopDone(beer.id, hopIndex)}
           />
-          <RowList
+          <Table
             title="Malts"
             type="malt"
             rows={malt}
             setDone={maltIndex => setMaltDone(beer.id, maltIndex)}
           />
-          <RowList
+          <Table
             title="Methods"
             type="method"
             rows={methodRows}

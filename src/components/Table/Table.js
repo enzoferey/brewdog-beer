@@ -1,10 +1,10 @@
 import React from "react";
 import PropTypes from "prop-types";
-import style from "./row-list.scss";
+import style from "./table.scss";
 
 import uuid from "uuid/v4";
 
-import RowItem from "components/RowItem";
+import TableRow from "components/TableRow";
 import Hop from "components/Hop";
 import Malt from "components/Malt";
 import Method from "components/Method";
@@ -42,7 +42,7 @@ const getDuration = (type, temperatures) => {
 
 const DefaultItem = props => <p>{JSON.stringify(props)}</p>;
 
-const RowList = ({ title, type, rows, startDone, middleDone, setDone }) => {
+const Table = ({ title, type, rows, startDone, middleDone, setDone }) => {
   const Item = getElement(type);
 
   return (
@@ -52,7 +52,7 @@ const RowList = ({ title, type, rows, startDone, middleDone, setDone }) => {
         const waiting = getWaiting(type, row.add, startDone, middleDone);
         const duration = getDuration(type, row.mash_temp);
         return (
-          <RowItem
+          <TableRow
             key={uuid()}
             item={<Item {...row} />}
             done={row.done}
@@ -68,7 +68,7 @@ const RowList = ({ title, type, rows, startDone, middleDone, setDone }) => {
   );
 };
 
-RowList.propTypes = {
+Table.propTypes = {
   title: PropTypes.string,
   type: PropTypes.oneOf(["hop", "malt", "method"]),
   rows: PropTypes.arrayOf(PropTypes.object),
@@ -77,4 +77,4 @@ RowList.propTypes = {
   setDone: PropTypes.func,
 };
 
-export default RowList;
+export default Table;
