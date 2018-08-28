@@ -2,6 +2,8 @@ import React from "react";
 import PropTypes from "prop-types";
 import style from "./beer-list-item.scss";
 
+import getAbvLabel from "utils/getAbvLabel";
+
 const MAX_LENGTH_DESCRIPTION = 360;
 
 const getMaxDescription = text => {
@@ -25,7 +27,7 @@ const BeerListItem = ({ background, image, name, abv, description }) => (
     </div>
     <div className={style.details}>
       <h4 className={style.name}>{name}</h4>
-      <span className={style.attributes}>{`Alc. ${abv}% By Vol.`}</span>
+      <span className={style.attributes}>{getAbvLabel(abv)}</span>
       <p className={style.description}>{getMaxDescription(description)}</p>
     </div>
   </div>
