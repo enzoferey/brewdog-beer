@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly with a gradient from \`from\` to \`to\` props 1`] = `
+<svg
+  className={undefined}
+  viewBox="0 0 1445.797 391.5"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <defs>
+    <linearGradient
+      gradientUnits="objectBoundingBox"
+      id="linear-gradient"
+      x1="0.061"
+      x2="1.479"
+      y2="1.666"
+    >
+      <stop
+        offset="0"
+        stopColor="white"
+      />
+      <stop
+        offset="1"
+        stopColor="black"
+      />
+    </linearGradient>
+  </defs>
+  <path
+    d="M722.9,0c399.246,0,722.9,175.281,722.9,391.5H0C0,175.281,323.653,0,722.9,0Z"
+    fill="url(#linear-gradient)"
+    transform="translate(1445.797 391.5) rotate(180)"
+  />
+</svg>
+`;
