@@ -6,7 +6,7 @@ import Button from "components/Button";
 
 export const IconLabel = ({ icon, label }) => (
   <Fragment>
-    <img className={style.icon} src={icon} alt="Weight icon" />
+    <img className={style.icon} src={icon} alt="" />
     <span className={style.label}>{label}</span>
   </Fragment>
 );

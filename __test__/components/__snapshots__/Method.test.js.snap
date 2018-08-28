@@ -24,7 +24,7 @@ Array [
                 </span>
             </div>
             <img
-                alt="Weight icon"
+                alt=""
                 className={undefined}
                 src="temperature.png"
             />
@@ -50,7 +50,7 @@ Array [
     }
 >
     <img
-        alt="Weight icon"
+        alt=""
         className={undefined}
         src="fermentation.png"
     />

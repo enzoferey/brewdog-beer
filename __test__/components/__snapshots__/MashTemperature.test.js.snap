@@ -12,7 +12,7 @@ exports[`renders correctly 1`] = `
     </span>
   </div>
   <img
-    alt="Weight icon"
+    alt=""
     className={undefined}
     src="temperature.png"
   />
