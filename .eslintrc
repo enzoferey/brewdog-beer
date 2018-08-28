@@ -18,6 +18,8 @@
     "global": false,
     "expect": false,
     "test": false,
-    "testSnapshot": false
+    "testSnapshot": false,
+    "withRouter": false,
+    "mocks": false
   }
 }

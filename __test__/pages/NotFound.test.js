@@ -1,20 +1,12 @@
 import React from "react";
-import { MemoryRouter } from "react-router-dom";
-
 import NotFound from "pages/NotFound";
 
+const NotFoundRouter = withRouter(NotFound);
+
 test("renders correctly", () => {
-  testSnapshot(
-    <MemoryRouter>
-      <NotFound />
-    </MemoryRouter>
-  );
+  testSnapshot(<NotFoundRouter />);
 });
 
 test("renders correctly `message` prop", () => {
-  testSnapshot(
-    <MemoryRouter>
-      <NotFound message="hello" />
-    </MemoryRouter>
-  );
+  testSnapshot(<NotFoundRouter message="hello" />);
 });

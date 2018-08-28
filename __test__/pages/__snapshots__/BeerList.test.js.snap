@@ -1,0 +1,1076 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  style={
+    Object {
+      "backgroundColor": "white",
+    }
+  }
+>
+  <div
+    className={undefined}
+  >
+    <h1
+      className={undefined}
+    >
+      Brewdog Beer
+    </h1>
+    <h3
+      className={undefined}
+    >
+      “Extraordinary beers that blow people’s minds and kick start a revolution.”
+    </h3>
+    <a
+      className={[Function]}
+      href="/Buzz"
+      onClick={[Function]}
+    >
+      <div
+        className={undefined}
+        style={
+          Object {
+            "background": undefined,
+          }
+        }
+      >
+        <div
+          className={undefined}
+        >
+          <img
+            alt="Beer bottle image"
+            src="https://images.punkapi.com/v2/keg.png"
+          />
+        </div>
+        <div
+          className={undefined}
+        >
+          <h4
+            className={undefined}
+          >
+            Buzz
+          </h4>
+          <span
+            className={undefined}
+          >
+            Alc. 4.5% By Vol.
+          </span>
+          <p
+            className={undefined}
+          >
+            A light, crisp and bitter IPA brewed with English and American hops. A small batch brewed only once.
+          </p>
+        </div>
+      </div>
+    </a>
+    <a
+      className={[Function]}
+      href="/Trashy Blonde"
+      onClick={[Function]}
+    >
+      <div
+        className={undefined}
+        style={
+          Object {
+            "background": undefined,
+          }
+        }
+      >
+        <div
+          className={undefined}
+        >
+          <img
+            alt="Beer bottle image"
+            src="https://images.punkapi.com/v2/2.png"
+          />
+        </div>
+        <div
+          className={undefined}
+        >
+          <h4
+            className={undefined}
+          >
+            Trashy Blonde
+          </h4>
+          <span
+            className={undefined}
+          >
+            Alc. 4.1% By Vol.
+          </span>
+          <p
+            className={undefined}
+          >
+            A titillating, neurotic, peroxide punk of a Pale Ale. Combining attitude, style, substance, and a little bit of low self esteem for good measure; what would your mother say? The seductive lure of the sassy passion fruit hop proves too much to resist. All that is even before we get onto the fact that there are no additives, preservatives, pasteurization or (...)
+          </p>
+        </div>
+      </div>
+    </a>
+    <a
+      className={[Function]}
+      href="/Berliner Weisse With Yuzu - B-Sides"
+      onClick={[Function]}
+    >
+      <div
+        className={undefined}
+        style={
+          Object {
+            "background": undefined,
+          }
+        }
+      >
+        <div
+          className={undefined}
+        >
+          <img
+            alt="Beer bottle image"
+            src="https://images.punkapi.com/v2/keg.png"
+          />
+        </div>
+        <div
+          className={undefined}
+        >
+          <h4
+            className={undefined}
+          >
+            Berliner Weisse With Yuzu - B-Sides
+          </h4>
+          <span
+            className={undefined}
+          >
+            Alc. 4.2% By Vol.
+          </span>
+          <p
+            className={undefined}
+          >
+            Japanese citrus fruit intensifies the sour nature of this German classic.
+          </p>
+        </div>
+      </div>
+    </a>
+    <a
+      className={[Function]}
+      href="/Pilsen Lager"
+      onClick={[Function]}
+    >
+      <div
+        className={undefined}
+        style={
+          Object {
+            "background": undefined,
+          }
+        }
+      >
+        <div
+          className={undefined}
+        >
+          <img
+            alt="Beer bottle image"
+            src="https://images.punkapi.com/v2/4.png"
+          />
+        </div>
+        <div
+          className={undefined}
+        >
+          <h4
+            className={undefined}
+          >
+            Pilsen Lager
+          </h4>
+          <span
+            className={undefined}
+          >
+            Alc. 6.3% By Vol.
+          </span>
+          <p
+            className={undefined}
+          >
+            Our Unleash the Yeast series was an epic experiment into the differences in aroma and flavour provided by switching up your yeast. We brewed up a wort with a light caramel note and some toasty biscuit flavour, and hopped it with Amarillo and Centennial for a citrusy bitterness. Everything else is down to the yeast. Pilsner yeast ferments with no fruity (...)
+          </p>
+        </div>
+      </div>
+    </a>
+    <a
+      className={[Function]}
+      href="/Avery Brown Dredge"
+      onClick={[Function]}
+    >
+      <div
+        className={undefined}
+        style={
+          Object {
+            "background": undefined,
+          }
+        }
+      >
+        <div
+          className={undefined}
+        >
+          <img
+            alt="Beer bottle image"
+            src="https://images.punkapi.com/v2/5.png"
+          />
+        </div>
+        <div
+          className={undefined}
+        >
+          <h4
+            className={undefined}
+          >
+            Avery Brown Dredge
+          </h4>
+          <span
+            className={undefined}
+          >
+            Alc. 7.2% By Vol.
+          </span>
+          <p
+            className={undefined}
+          >
+            An Imperial Pilsner in collaboration with beer writers. Tradition. Homage. Revolution. We wanted to showcase the awesome backbone of the Czech brewing tradition, the noble Saaz hop, and also tip our hats to the modern beers that rock our world, and the people who make them.
+          </p>
+        </div>
+      </div>
+    </a>
+    <a
+      className={[Function]}
+      href="/Electric India"
+      onClick={[Function]}
+    >
+      <div
+        className={undefined}
+        style={
+          Object {
+            "background": undefined,
+          }
+        }
+      >
+        <div
+          className={undefined}
+        >
+          <img
+            alt="Beer bottle image"
+            src="https://images.punkapi.com/v2/6.png"
+          />
+        </div>
+        <div
+          className={undefined}
+        >
+          <h4
+            className={undefined}
+          >
+            Electric India
+          </h4>
+          <span
+            className={undefined}
+          >
+            Alc. 5.2% By Vol.
+          </span>
+          <p
+            className={undefined}
+          >
+            Re-brewed as a spring seasonal, this beer – which appeared originally as an Equity Punk shareholder creation – retains its trademark spicy, fruity edge. A perfect blend of Belgian Saison and US IPA, crushed peppercorns and heather honey are also added to produce a genuinely unique beer.
+          </p>
+        </div>
+      </div>
+    </a>
+    <a
+      className={[Function]}
+      href="/AB:12"
+      onClick={[Function]}
+    >
+      <div
+        className={undefined}
+        style={
+          Object {
+            "background": undefined,
+          }
+        }
+      >
+        <div
+          className={undefined}
+        >
+          <img
+            alt="Beer bottle image"
+            src="https://images.punkapi.com/v2/7.png"
+          />
+        </div>
+        <div
+          className={undefined}
+        >
+          <h4
+            className={undefined}
+          >
+            AB:12
+          </h4>
+          <span
+            className={undefined}
+          >
+            Alc. 11.2% By Vol.
+          </span>
+          <p
+            className={undefined}
+          >
+            An Imperial Black Belgian Ale aged in old Invergordon Scotch whisky barrels with mountains of raspberries, tayberries and blackberries in each cask. Decadent but light and dry, this beer would make a fantastic base for ageing on pretty much any dark fruit - we used raspberries, tayberries and blackberries beause they were local.
+          </p>
+        </div>
+      </div>
+    </a>
+    <a
+      className={[Function]}
+      href="/Fake Lager"
+      onClick={[Function]}
+    >
+      <div
+        className={undefined}
+        style={
+          Object {
+            "background": undefined,
+          }
+        }
+      >
+        <div
+          className={undefined}
+        >
+          <img
+            alt="Beer bottle image"
+            src="https://images.punkapi.com/v2/8.png"
+          />
+        </div>
+        <div
+          className={undefined}
+        >
+          <h4
+            className={undefined}
+          >
+            Fake Lager
+          </h4>
+          <span
+            className={undefined}
+          >
+            Alc. 4.7% By Vol.
+          </span>
+          <p
+            className={undefined}
+          >
+            Fake is the new black. Fake is where it is at. Fake Art, fake brands, fake breasts, and fake lager. We want to play our part in the ugly fallout from the Lager Dream. Say hello to Fake Lager – a zesty, floral 21st century faux masterpiece with added BrewDog bitterness.
+          </p>
+        </div>
+      </div>
+    </a>
+    <a
+      className={[Function]}
+      href="/AB:07"
+      onClick={[Function]}
+    >
+      <div
+        className={undefined}
+        style={
+          Object {
+            "background": undefined,
+          }
+        }
+      >
+        <div
+          className={undefined}
+        >
+          <img
+            alt="Beer bottle image"
+            src="https://images.punkapi.com/v2/9.png"
+          />
+        </div>
+        <div
+          className={undefined}
+        >
+          <h4
+            className={undefined}
+          >
+            AB:07
+          </h4>
+          <span
+            className={undefined}
+          >
+            Alc. 12.5% By Vol.
+          </span>
+          <p
+            className={undefined}
+          >
+            Whisky cask-aged imperial scotch ale. Beer perfect for when the rain is coming sideways. Liquorice, plum and raisin temper the warming alcohol, producing a beer capable of holding back the Scottish chill.
+          </p>
+        </div>
+      </div>
+    </a>
+    <a
+      className={[Function]}
+      href="/Bramling X"
+      onClick={[Function]}
+    >
+      <div
+        className={undefined}
+        style={
+          Object {
+            "background": undefined,
+          }
+        }
+      >
+        <div
+          className={undefined}
+        >
+          <img
+            alt="Beer bottle image"
+            src="https://images.punkapi.com/v2/10.png"
+          />
+        </div>
+        <div
+          className={undefined}
+        >
+          <h4
+            className={undefined}
+          >
+            Bramling X
+          </h4>
+          <span
+            className={undefined}
+          >
+            Alc. 7.5% By Vol.
+          </span>
+          <p
+            className={undefined}
+          >
+            Good old Bramling Cross is elegant, refined, assured, (boring) and understated. Understated that is unless you hop the living daylights out of a beer with it. This is Bramling Cross re-invented and re-imagined, and shows just what can be done with English hops if you use enough of them. Poor Bramling Cross normally gets lost in a woeful stream of conformist (...)
+          </p>
+        </div>
+      </div>
+    </a>
+    <a
+      className={[Function]}
+      href="/Misspent Youth"
+      onClick={[Function]}
+    >
+      <div
+        className={undefined}
+        style={
+          Object {
+            "background": undefined,
+          }
+        }
+      >
+        <div
+          className={undefined}
+        >
+          <img
+            alt="Beer bottle image"
+            src="https://images.punkapi.com/v2/keg.png"
+          />
+        </div>
+        <div
+          className={undefined}
+        >
+          <h4
+            className={undefined}
+          >
+            Misspent Youth
+          </h4>
+          <span
+            className={undefined}
+          >
+            Alc. 7.3% By Vol.
+          </span>
+          <p
+            className={undefined}
+          >
+            The brainchild of our small batch brewer, George Woods. A dangerously drinkable milk sugar- infused Scotch Ale.
+          </p>
+        </div>
+      </div>
+    </a>
+    <a
+      className={[Function]}
+      href="/Arcade Nation"
+      onClick={[Function]}
+    >
+      <div
+        className={undefined}
+        style={
+          Object {
+            "background": undefined,
+          }
+        }
+      >
+        <div
+          className={undefined}
+        >
+          <img
+            alt="Beer bottle image"
+            src="https://images.punkapi.com/v2/12.png"
+          />
+        </div>
+        <div
+          className={undefined}
+        >
+          <h4
+            className={undefined}
+          >
+            Arcade Nation
+          </h4>
+          <span
+            className={undefined}
+          >
+            Alc. 5.3% By Vol.
+          </span>
+          <p
+            className={undefined}
+          >
+            Running the knife-edge between an India Pale Ale and a Stout, this particular style is one we truly love. Black IPAs are a great showcase for the skill of our brew team, balancing so many complex and twisting flavours in the same moment. The citrus, mango and pine from the hops – three of our all-time favourites – play off against the roasty dryness from (...)
+          </p>
+        </div>
+      </div>
+    </a>
+    <a
+      className={[Function]}
+      href="/Movember"
+      onClick={[Function]}
+    >
+      <div
+        className={undefined}
+        style={
+          Object {
+            "background": undefined,
+          }
+        }
+      >
+        <div
+          className={undefined}
+        >
+          <img
+            alt="Beer bottle image"
+            src="https://images.punkapi.com/v2/13.png"
+          />
+        </div>
+        <div
+          className={undefined}
+        >
+          <h4
+            className={undefined}
+          >
+            Movember
+          </h4>
+          <span
+            className={undefined}
+          >
+            Alc. 4.5% By Vol.
+          </span>
+          <p
+            className={undefined}
+          >
+            A deliciously robust, black malted beer with a decadent dark, dry cocoa flavour that provides an enticing backdrop to the Cascade hops.
+          </p>
+        </div>
+      </div>
+    </a>
+    <a
+      className={[Function]}
+      href="/Alpha Dog"
+      onClick={[Function]}
+    >
+      <div
+        className={undefined}
+        style={
+          Object {
+            "background": undefined,
+          }
+        }
+      >
+        <div
+          className={undefined}
+        >
+          <img
+            alt="Beer bottle image"
+            src="https://images.punkapi.com/v2/14.png"
+          />
+        </div>
+        <div
+          className={undefined}
+        >
+          <h4
+            className={undefined}
+          >
+            Alpha Dog
+          </h4>
+          <span
+            className={undefined}
+          >
+            Alc. 4.5% By Vol.
+          </span>
+          <p
+            className={undefined}
+          >
+            A fusion of caramel malt flavours and punchy New Zealand hops. A session beer you can get your teeth into.
+          </p>
+        </div>
+      </div>
+    </a>
+    <a
+      className={[Function]}
+      href="/Mixtape 8"
+      onClick={[Function]}
+    >
+      <div
+        className={undefined}
+        style={
+          Object {
+            "background": undefined,
+          }
+        }
+      >
+        <div
+          className={undefined}
+        >
+          <img
+            alt="Beer bottle image"
+            src="https://images.punkapi.com/v2/15.png"
+          />
+        </div>
+        <div
+          className={undefined}
+        >
+          <h4
+            className={undefined}
+          >
+            Mixtape 8
+          </h4>
+          <span
+            className={undefined}
+          >
+            Alc. 14.5% By Vol.
+          </span>
+          <p
+            className={undefined}
+          >
+            This recipe is for the Belgian Tripel base. A blend of two huge oak aged beers – half a hopped up Belgian Tripel, and half a Triple India Pale Ale. Both aged in single grain whisky barrels for two years and blended, each beer brings its own character to the mix. The Belgian Tripel comes loaded with complex spicy, fruity esters, and punchy citrus hop (...)
+          </p>
+        </div>
+      </div>
+    </a>
+    <a
+      className={[Function]}
+      href="/Libertine Porter"
+      onClick={[Function]}
+    >
+      <div
+        className={undefined}
+        style={
+          Object {
+            "background": undefined,
+          }
+        }
+      >
+        <div
+          className={undefined}
+        >
+          <img
+            alt="Beer bottle image"
+            src="https://images.punkapi.com/v2/16.png"
+          />
+        </div>
+        <div
+          className={undefined}
+        >
+          <h4
+            className={undefined}
+          >
+            Libertine Porter
+          </h4>
+          <span
+            className={undefined}
+          >
+            Alc. 6.1% By Vol.
+          </span>
+          <p
+            className={undefined}
+          >
+            An avalanche of cross-continental hop varieties give this porter a complex spicy, resinous and citrusy aroma, with a huge malt bill providing a complex roasty counterpoint. Digging deeper into the flavour draws out cinder toffee, bitter chocolate and hints of woodsmoke.
+          </p>
+        </div>
+      </div>
+    </a>
+    <a
+      className={[Function]}
+      href="/AB:06"
+      onClick={[Function]}
+    >
+      <div
+        className={undefined}
+        style={
+          Object {
+            "background": undefined,
+          }
+        }
+      >
+        <div
+          className={undefined}
+        >
+          <img
+            alt="Beer bottle image"
+            src="https://images.punkapi.com/v2/17.png"
+          />
+        </div>
+        <div
+          className={undefined}
+        >
+          <h4
+            className={undefined}
+          >
+            AB:06
+          </h4>
+          <span
+            className={undefined}
+          >
+            Alc. 11.2% By Vol.
+          </span>
+          <p
+            className={undefined}
+          >
+            Our sixth Abstrakt, this imperial black IPA combined dark malts with a monumental triple dry-hop, using an all-star team of some of our favourite American hops. Roasty and resinous.
+          </p>
+        </div>
+      </div>
+    </a>
+    <a
+      className={[Function]}
+      href="/Russian Doll – India Pale Ale"
+      onClick={[Function]}
+    >
+      <div
+        className={undefined}
+        style={
+          Object {
+            "background": undefined,
+          }
+        }
+      >
+        <div
+          className={undefined}
+        >
+          <img
+            alt="Beer bottle image"
+            src="https://images.punkapi.com/v2/18.png"
+          />
+        </div>
+        <div
+          className={undefined}
+        >
+          <h4
+            className={undefined}
+          >
+            Russian Doll – India Pale Ale
+          </h4>
+          <span
+            className={undefined}
+          >
+            Alc. 6% By Vol.
+          </span>
+          <p
+            className={undefined}
+          >
+            The levels of hops vary throughout the range. We love hops, so all four beers are big, bitter badasses, but by tweaking the amount of each hop used later in the boil and during dry- hopping, we can balance the malty backbone with some unexpected flavours. Simcoe is used in the whirlpool for all four beers, and yet still lends different characters to each
+          </p>
+        </div>
+      </div>
+    </a>
+    <a
+      className={[Function]}
+      href="/Hello My Name Is Mette-Marit"
+      onClick={[Function]}
+    >
+      <div
+        className={undefined}
+        style={
+          Object {
+            "background": undefined,
+          }
+        }
+      >
+        <div
+          className={undefined}
+        >
+          <img
+            alt="Beer bottle image"
+            src="https://images.punkapi.com/v2/19.png"
+          />
+        </div>
+        <div
+          className={undefined}
+        >
+          <h4
+            className={undefined}
+          >
+            Hello My Name Is Mette-Marit
+          </h4>
+          <span
+            className={undefined}
+          >
+            Alc. 8.2% By Vol.
+          </span>
+          <p
+            className={undefined}
+          >
+            We sent this beer to Norway where it was known as 'Hello, my name is Censored’. You can make up your own mind as to why. This brew was a red berry explosion, with a reisnous bitter edge layered with dry berry tartness.
+          </p>
+        </div>
+      </div>
+    </a>
+    <a
+      className={[Function]}
+      href="/Rabiator"
+      onClick={[Function]}
+    >
+      <div
+        className={undefined}
+        style={
+          Object {
+            "background": undefined,
+          }
+        }
+      >
+        <div
+          className={undefined}
+        >
+          <img
+            alt="Beer bottle image"
+            src="https://images.punkapi.com/v2/keg.png"
+          />
+        </div>
+        <div
+          className={undefined}
+        >
+          <h4
+            className={undefined}
+          >
+            Rabiator
+          </h4>
+          <span
+            className={undefined}
+          >
+            Alc. 10.27% By Vol.
+          </span>
+          <p
+            className={undefined}
+          >
+            Imperial Wheat beer / Weizenbock brewed by a homesick German in leather trousers. Think banana bread, bubble gum and David Hasselhoff.
+          </p>
+        </div>
+      </div>
+    </a>
+    <a
+      className={[Function]}
+      href="/Vice Bier"
+      onClick={[Function]}
+    >
+      <div
+        className={undefined}
+        style={
+          Object {
+            "background": undefined,
+          }
+        }
+      >
+        <div
+          className={undefined}
+        >
+          <img
+            alt="Beer bottle image"
+            src="https://images.punkapi.com/v2/keg.png"
+          />
+        </div>
+        <div
+          className={undefined}
+        >
+          <h4
+            className={undefined}
+          >
+            Vice Bier
+          </h4>
+          <span
+            className={undefined}
+          >
+            Alc. 4.3% By Vol.
+          </span>
+          <p
+            className={undefined}
+          >
+            Our take on the classic German Kristallweizen. A clear German wheat beer, layers of bubblegum and vanilla perfectly balanced with the American and New Zealand hops.
+          </p>
+        </div>
+      </div>
+    </a>
+    <a
+      className={[Function]}
+      href="/Devine Rebel (w/ Mikkeller)"
+      onClick={[Function]}
+    >
+      <div
+        className={undefined}
+        style={
+          Object {
+            "background": undefined,
+          }
+        }
+      >
+        <div
+          className={undefined}
+        >
+          <img
+            alt="Beer bottle image"
+            src="https://images.punkapi.com/v2/22.png"
+          />
+        </div>
+        <div
+          className={undefined}
+        >
+          <h4
+            className={undefined}
+          >
+            Devine Rebel (w/ Mikkeller)
+          </h4>
+          <span
+            className={undefined}
+          >
+            Alc. 12.5% By Vol.
+          </span>
+          <p
+            className={undefined}
+          >
+            Two of Europe's most experimental, boundary-pushing brewers, BrewDog and Mikkeller, combined forces to produce a rebellious beer that combined their respective talents and brewing skills. The 12.5% Barley Wine fermented well, and the champagne yeast drew it ever closer to 12.5%. The beer was brewed with a single hop variety and was going to be partially (...)
+          </p>
+        </div>
+      </div>
+    </a>
+    <a
+      className={[Function]}
+      href="/Storm"
+      onClick={[Function]}
+    >
+      <div
+        className={undefined}
+        style={
+          Object {
+            "background": undefined,
+          }
+        }
+      >
+        <div
+          className={undefined}
+        >
+          <img
+            alt="Beer bottle image"
+            src="https://images.punkapi.com/v2/23.png"
+          />
+        </div>
+        <div
+          className={undefined}
+        >
+          <h4
+            className={undefined}
+          >
+            Storm
+          </h4>
+          <span
+            className={undefined}
+          >
+            Alc. 8% By Vol.
+          </span>
+          <p
+            className={undefined}
+          >
+            Dark and powerful Islay magic infuses this tropical sensation of an IPA. Using the original Punk IPA as a base, we boosted the ABV to 8% giving it some extra backbone to stand up to the peated smoke imported directly from Islay.
+          </p>
+        </div>
+      </div>
+    </a>
+    <a
+      className={[Function]}
+      href="/The End Of History"
+      onClick={[Function]}
+    >
+      <div
+        className={undefined}
+        style={
+          Object {
+            "background": undefined,
+          }
+        }
+      >
+        <div
+          className={undefined}
+        >
+          <img
+            alt="Beer bottle image"
+            src="https://images.punkapi.com/v2/24.png"
+          />
+        </div>
+        <div
+          className={undefined}
+        >
+          <h4
+            className={undefined}
+          >
+            The End Of History
+          </h4>
+          <span
+            className={undefined}
+          >
+            Alc. 55% By Vol.
+          </span>
+          <p
+            className={undefined}
+          >
+            The End of History: The name derives from the famous work of philosopher Francis Fukuyama, this is to beer what democracy is to history. Complexity defined. Floral, grapefruit, caramel and cloves are intensified by boozy heat.
+          </p>
+        </div>
+      </div>
+    </a>
+    <a
+      className={[Function]}
+      href="/Bad Pixie"
+      onClick={[Function]}
+    >
+      <div
+        className={undefined}
+        style={
+          Object {
+            "background": undefined,
+          }
+        }
+      >
+        <div
+          className={undefined}
+        >
+          <img
+            alt="Beer bottle image"
+            src="https://images.punkapi.com/v2/25.png"
+          />
+        </div>
+        <div
+          className={undefined}
+        >
+          <h4
+            className={undefined}
+          >
+            Bad Pixie
+          </h4>
+          <span
+            className={undefined}
+          >
+            Alc. 4.7% By Vol.
+          </span>
+          <p
+            className={undefined}
+          >
+            2008 Prototype beer, a 4.7% wheat ale with crushed juniper berries and citrus peel.
+          </p>
+        </div>
+      </div>
+    </a>
+  </div>
+</div>
+`;
