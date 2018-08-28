@@ -24,6 +24,8 @@ The app is uploaded at [https://wonderful-banach-b79042.netlify.com/](https://wo
 
 - The app always asks for the whole beer endpoint, even when a beer page is loaded directly so it doesn't need all the data at first. The good thing about it is that user won't have wait time any more in the future. The bad thing is that depending on the number of items expected it can add an additional wait time upfront. This could be discussed with the product team to match their expectations.
 
+- The app is not responsive because it would have required a more detailed design work. For a nice fit please use a > 1280px screen.
+
 ## Notes
 
 - "Methods" were always referred in plural, however in the API data the field is singular and an object type rather an array. The app also works when the field is an array but it adds complexity and it's confusing.
