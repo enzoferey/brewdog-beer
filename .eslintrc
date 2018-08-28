@@ -20,6 +20,9 @@
     "test": false,
     "testSnapshot": false,
     "withRouter": false,
-    "mocks": false
+    "mocks": false,
+    "jest": false,
+    "shallow": false,
+    "describe": false
   }
 }

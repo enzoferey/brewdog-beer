@@ -1,0 +1,936 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  style={
+    Object {
+      "backgroundColor": "white",
+    }
+  }
+>
+  <div
+    className={undefined}
+  >
+    <div
+      className={undefined}
+    >
+      <div
+        className={undefined}
+      >
+        <svg
+          className={undefined}
+          viewBox="0 0 1445.797 391.5"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <defs>
+            <linearGradient
+              gradientUnits="objectBoundingBox"
+              id="linear-gradient"
+              x1="0.061"
+              x2="1.479"
+              y2="1.666"
+            >
+              <stop
+                offset="0"
+                stopColor={undefined}
+              />
+              <stop
+                offset="1"
+                stopColor={undefined}
+              />
+            </linearGradient>
+          </defs>
+          <path
+            d="M722.9,0c399.246,0,722.9,175.281,722.9,391.5H0C0,175.281,323.653,0,722.9,0Z"
+            fill="url(#linear-gradient)"
+            transform="translate(1445.797 391.5) rotate(180)"
+          />
+        </svg>
+      </div>
+      <a
+        className={undefined}
+        href="/"
+        onClick={[Function]}
+      >
+        <img
+          alt="Back arrow icon"
+          src="back-arrow.png"
+        />
+        Back
+      </a>
+      <div
+        className={undefined}
+      >
+        <div
+          className={undefined}
+        >
+          <img
+            alt="Beer bottle image"
+            className={undefined}
+            src="https://images.punkapi.com/v2/keg.png"
+          />
+          <h2
+            className={undefined}
+          >
+            Buzz
+          </h2>
+          <h4
+            className={undefined}
+          >
+            Alc. 4.5% By Vol.
+          </h4>
+          <p
+            className={undefined}
+          >
+            A light, crisp and bitter IPA brewed with English and American hops. A small batch brewed only once.
+          </p>
+        </div>
+        <div
+          className={undefined}
+        >
+          <h2
+            className={undefined}
+          >
+            Hops
+          </h2>
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+            >
+              <div
+                className={undefined}
+                style={
+                  Object {
+                    "flex": 1,
+                  }
+                }
+              >
+                <span
+                  className={undefined}
+                >
+                  Fuggles
+                </span>
+              </div>
+              <div
+                className={undefined}
+                style={
+                  Object {
+                    "flex": 1,
+                  }
+                }
+              >
+                <img
+                  alt="Weight icon"
+                  className={undefined}
+                  src="weight.png"
+                />
+                <span
+                  className={undefined}
+                >
+                  25 grams
+                </span>
+              </div>
+              <div
+                className={undefined}
+                style={
+                  Object {
+                    "flex": 1,
+                  }
+                }
+              >
+                <img
+                  alt="Weight icon"
+                  className={undefined}
+                  src="time.png"
+                />
+                <span
+                  className={undefined}
+                >
+                  start
+                </span>
+              </div>
+              <div
+                className={undefined}
+                style={
+                  Object {
+                    "flex": 1,
+                  }
+                }
+              >
+                <img
+                  alt="Weight icon"
+                  className={undefined}
+                  src="label.png"
+                />
+                <span
+                  className={undefined}
+                >
+                  bitter
+                </span>
+              </div>
+              <div
+                className={undefined}
+              >
+                <div
+                  className="undefined "
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "background": undefined,
+                    }
+                  }
+                >
+                  <p
+                    className={undefined}
+                  >
+                    Add
+                  </p>
+                  <div
+                    className="undefined "
+                    style={
+                      Object {
+                        "width": "NaN%",
+                      }
+                    }
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              className={undefined}
+            >
+              <div
+                className={undefined}
+                style={
+                  Object {
+                    "flex": 1,
+                  }
+                }
+              >
+                <span
+                  className={undefined}
+                >
+                  First Gold
+                </span>
+              </div>
+              <div
+                className={undefined}
+                style={
+                  Object {
+                    "flex": 1,
+                  }
+                }
+              >
+                <img
+                  alt="Weight icon"
+                  className={undefined}
+                  src="weight.png"
+                />
+                <span
+                  className={undefined}
+                >
+                  25 grams
+                </span>
+              </div>
+              <div
+                className={undefined}
+                style={
+                  Object {
+                    "flex": 1,
+                  }
+                }
+              >
+                <img
+                  alt="Weight icon"
+                  className={undefined}
+                  src="time.png"
+                />
+                <span
+                  className={undefined}
+                >
+                  start
+                </span>
+              </div>
+              <div
+                className={undefined}
+                style={
+                  Object {
+                    "flex": 1,
+                  }
+                }
+              >
+                <img
+                  alt="Weight icon"
+                  className={undefined}
+                  src="label.png"
+                />
+                <span
+                  className={undefined}
+                >
+                  bitter
+                </span>
+              </div>
+              <div
+                className={undefined}
+              >
+                <div
+                  className="undefined "
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "background": undefined,
+                    }
+                  }
+                >
+                  <p
+                    className={undefined}
+                  >
+                    Add
+                  </p>
+                  <div
+                    className="undefined "
+                    style={
+                      Object {
+                        "width": "NaN%",
+                      }
+                    }
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              className={undefined}
+            >
+              <div
+                className={undefined}
+                style={
+                  Object {
+                    "flex": 1,
+                  }
+                }
+              >
+                <span
+                  className={undefined}
+                >
+                  Fuggles
+                </span>
+              </div>
+              <div
+                className={undefined}
+                style={
+                  Object {
+                    "flex": 1,
+                  }
+                }
+              >
+                <img
+                  alt="Weight icon"
+                  className={undefined}
+                  src="weight.png"
+                />
+                <span
+                  className={undefined}
+                >
+                  37.5 grams
+                </span>
+              </div>
+              <div
+                className={undefined}
+                style={
+                  Object {
+                    "flex": 1,
+                  }
+                }
+              >
+                <img
+                  alt="Weight icon"
+                  className={undefined}
+                  src="time.png"
+                />
+                <span
+                  className={undefined}
+                >
+                  middle
+                </span>
+              </div>
+              <div
+                className={undefined}
+                style={
+                  Object {
+                    "flex": 1,
+                  }
+                }
+              >
+                <img
+                  alt="Weight icon"
+                  className={undefined}
+                  src="label.png"
+                />
+                <span
+                  className={undefined}
+                >
+                  flavour
+                </span>
+              </div>
+              <div
+                className={undefined}
+              >
+                <div
+                  className="undefined undefined"
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "background": undefined,
+                    }
+                  }
+                >
+                  <p
+                    className={undefined}
+                  >
+                    Add prev
+                  </p>
+                  <div
+                    className="undefined "
+                    style={
+                      Object {
+                        "width": "NaN%",
+                      }
+                    }
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              className={undefined}
+            >
+              <div
+                className={undefined}
+                style={
+                  Object {
+                    "flex": 1,
+                  }
+                }
+              >
+                <span
+                  className={undefined}
+                >
+                  First Gold
+                </span>
+              </div>
+              <div
+                className={undefined}
+                style={
+                  Object {
+                    "flex": 1,
+                  }
+                }
+              >
+                <img
+                  alt="Weight icon"
+                  className={undefined}
+                  src="weight.png"
+                />
+                <span
+                  className={undefined}
+                >
+                  37.5 grams
+                </span>
+              </div>
+              <div
+                className={undefined}
+                style={
+                  Object {
+                    "flex": 1,
+                  }
+                }
+              >
+                <img
+                  alt="Weight icon"
+                  className={undefined}
+                  src="time.png"
+                />
+                <span
+                  className={undefined}
+                >
+                  middle
+                </span>
+              </div>
+              <div
+                className={undefined}
+                style={
+                  Object {
+                    "flex": 1,
+                  }
+                }
+              >
+                <img
+                  alt="Weight icon"
+                  className={undefined}
+                  src="label.png"
+                />
+                <span
+                  className={undefined}
+                >
+                  flavour
+                </span>
+              </div>
+              <div
+                className={undefined}
+              >
+                <div
+                  className="undefined undefined"
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "background": undefined,
+                    }
+                  }
+                >
+                  <p
+                    className={undefined}
+                  >
+                    Add prev
+                  </p>
+                  <div
+                    className="undefined "
+                    style={
+                      Object {
+                        "width": "NaN%",
+                      }
+                    }
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              className={undefined}
+            >
+              <div
+                className={undefined}
+                style={
+                  Object {
+                    "flex": 1,
+                  }
+                }
+              >
+                <span
+                  className={undefined}
+                >
+                  Cascade
+                </span>
+              </div>
+              <div
+                className={undefined}
+                style={
+                  Object {
+                    "flex": 1,
+                  }
+                }
+              >
+                <img
+                  alt="Weight icon"
+                  className={undefined}
+                  src="weight.png"
+                />
+                <span
+                  className={undefined}
+                >
+                  37.5 grams
+                </span>
+              </div>
+              <div
+                className={undefined}
+                style={
+                  Object {
+                    "flex": 1,
+                  }
+                }
+              >
+                <img
+                  alt="Weight icon"
+                  className={undefined}
+                  src="time.png"
+                />
+                <span
+                  className={undefined}
+                >
+                  end
+                </span>
+              </div>
+              <div
+                className={undefined}
+                style={
+                  Object {
+                    "flex": 1,
+                  }
+                }
+              >
+                <img
+                  alt="Weight icon"
+                  className={undefined}
+                  src="label.png"
+                />
+                <span
+                  className={undefined}
+                >
+                  flavour
+                </span>
+              </div>
+              <div
+                className={undefined}
+              >
+                <div
+                  className="undefined undefined"
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "background": undefined,
+                    }
+                  }
+                >
+                  <p
+                    className={undefined}
+                  >
+                    Add prev
+                  </p>
+                  <div
+                    className="undefined "
+                    style={
+                      Object {
+                        "width": "NaN%",
+                      }
+                    }
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className={undefined}
+        >
+          <h2
+            className={undefined}
+          >
+            Malts
+          </h2>
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+            >
+              <div
+                className={undefined}
+                style={
+                  Object {
+                    "flex": 1,
+                  }
+                }
+              >
+                <span
+                  className={undefined}
+                >
+                  Maris Otter Extra Pale
+                </span>
+              </div>
+              <div
+                className={undefined}
+                style={
+                  Object {
+                    "flex": 1,
+                  }
+                }
+              >
+                <img
+                  alt="Weight icon"
+                  className={undefined}
+                  src="weight.png"
+                />
+                <span
+                  className={undefined}
+                >
+                  3.3 kilograms
+                </span>
+              </div>
+              <div
+                className={undefined}
+              >
+                <div
+                  className="undefined "
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "background": undefined,
+                    }
+                  }
+                >
+                  <p
+                    className={undefined}
+                  >
+                    Add
+                  </p>
+                  <div
+                    className="undefined "
+                    style={
+                      Object {
+                        "width": "NaN%",
+                      }
+                    }
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              className={undefined}
+            >
+              <div
+                className={undefined}
+                style={
+                  Object {
+                    "flex": 1,
+                  }
+                }
+              >
+                <span
+                  className={undefined}
+                >
+                  Caramalt
+                </span>
+              </div>
+              <div
+                className={undefined}
+                style={
+                  Object {
+                    "flex": 1,
+                  }
+                }
+              >
+                <img
+                  alt="Weight icon"
+                  className={undefined}
+                  src="weight.png"
+                />
+                <span
+                  className={undefined}
+                >
+                  0.2 kilograms
+                </span>
+              </div>
+              <div
+                className={undefined}
+              >
+                <div
+                  className="undefined "
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "background": undefined,
+                    }
+                  }
+                >
+                  <p
+                    className={undefined}
+                  >
+                    Add
+                  </p>
+                  <div
+                    className="undefined "
+                    style={
+                      Object {
+                        "width": "NaN%",
+                      }
+                    }
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              className={undefined}
+            >
+              <div
+                className={undefined}
+                style={
+                  Object {
+                    "flex": 1,
+                  }
+                }
+              >
+                <span
+                  className={undefined}
+                >
+                  Munich
+                </span>
+              </div>
+              <div
+                className={undefined}
+                style={
+                  Object {
+                    "flex": 1,
+                  }
+                }
+              >
+                <img
+                  alt="Weight icon"
+                  className={undefined}
+                  src="weight.png"
+                />
+                <span
+                  className={undefined}
+                >
+                  0.4 kilograms
+                </span>
+              </div>
+              <div
+                className={undefined}
+              >
+                <div
+                  className="undefined "
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "background": undefined,
+                    }
+                  }
+                >
+                  <p
+                    className={undefined}
+                  >
+                    Add
+                  </p>
+                  <div
+                    className="undefined "
+                    style={
+                      Object {
+                        "width": "NaN%",
+                      }
+                    }
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className={undefined}
+        >
+          <h2
+            className={undefined}
+          >
+            Methods
+          </h2>
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+            >
+              <div
+                className={undefined}
+                style={
+                  Object {
+                    "flex": 1,
+                  }
+                }
+              >
+                <div
+                  className={undefined}
+                >
+                  <div
+                    className={undefined}
+                  >
+                    <div
+                      className={undefined}
+                    >
+                      <span>
+                        1
+                      </span>
+                    </div>
+                    <img
+                      alt="Weight icon"
+                      className={undefined}
+                      src="temperature.png"
+                    />
+                    <span
+                      className={undefined}
+                    >
+                      64ºC
+                    </span>
+                    <span
+                      className={undefined}
+                    >
+                      5s
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                className={undefined}
+                style={
+                  Object {
+                    "flex": 1,
+                  }
+                }
+              >
+                <img
+                  alt="Weight icon"
+                  className={undefined}
+                  src="fermentation.png"
+                />
+                <span
+                  className={undefined}
+                >
+                  19ºC
+                </span>
+              </div>
+              <div
+                className={undefined}
+                style={
+                  Object {
+                    "flex": 2,
+                  }
+                }
+              >
+                <p
+                  className={undefined}
+                >
+                  -
+                </p>
+              </div>
+              <div
+                className={undefined}
+              >
+                <div
+                  className="undefined "
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "background": undefined,
+                    }
+                  }
+                >
+                  <p
+                    className={undefined}
+                  >
+                    Add
+                  </p>
+                  <div
+                    className="undefined "
+                    style={
+                      Object {
+                        "width": "100%",
+                      }
+                    }
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

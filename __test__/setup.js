@@ -1,7 +1,7 @@
 import { shallow } from "enzyme";
 import testSnapshot from "./snapshot";
 import withRouter from "./withRouter";
-import mocks from "./mocks.json";
+import * as mocks from "./mocks";
 
 global.shallow = shallow;
 global.testSnapshot = testSnapshot;

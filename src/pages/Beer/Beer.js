@@ -8,6 +8,7 @@ import backArrow from "./back-arrow.png";
 
 import getGradientSvg from "utils/getGradientSvg";
 import getGradient from "utils/getGradient";
+import checkHops from "utils/checkHops";
 
 import NotFound from "pages/NotFound";
 
@@ -15,23 +16,6 @@ import PageContainer from "components/PageContainer";
 import Ovale from "components/Ovale";
 import BeerDetails from "components/BeerDetails";
 import Table from "components/Table";
-
-const checkHops = hops => {
-  // Get by type
-  const findByTime = time => hops.filter(hop => hop.add === time);
-  const startHops = findByTime("start");
-  const middleHops = findByTime("middle");
-
-  // Check them
-  const hopDone = hop => hop.done;
-  const startDone = startHops.every(hopDone);
-  const middleDone = middleHops.every(hopDone);
-
-  return {
-    startDone,
-    middleDone,
-  };
-};
 
 const Beer = ({ beers, match, setHopDone, setMaltDone, setMethodDone }) => {
   // Get the beer
