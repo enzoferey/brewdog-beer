@@ -3,75 +3,60 @@
 exports[`renders correctly 1`] = `
 Array [
   <div
-    className={undefined}
     style={
-        Object {
-            "flex": 1,
-          }
+      Object {
+        "flex": 1,
+      }
     }
->
-    <span
-        className={undefined}
-    >
-        Fuggles
+  >
+    <span>
+      Fuggles
     </span>
-</div>,
+  </div>,
   <div
-    className={undefined}
     style={
-        Object {
-            "flex": 1,
-          }
+      Object {
+        "flex": 1,
+      }
     }
->
+  >
     <img
-        alt=""
-        className={undefined}
-        src="weight.png"
+      alt=""
+      src="weight.png"
     />
-    <span
-        className={undefined}
-    >
-        25 grams
+    <span>
+      25 grams
     </span>
-</div>,
+  </div>,
   <div
-    className={undefined}
     style={
-        Object {
-            "flex": 1,
-          }
+      Object {
+        "flex": 1,
+      }
     }
->
+  >
     <img
-        alt=""
-        className={undefined}
-        src="time.png"
+      alt=""
+      src="time.png"
     />
-    <span
-        className={undefined}
-    >
-        start
+    <span>
+      start
     </span>
-</div>,
+  </div>,
   <div
-    className={undefined}
     style={
-        Object {
-            "flex": 1,
-          }
+      Object {
+        "flex": 1,
+      }
     }
->
+  >
     <img
-        alt=""
-        className={undefined}
-        src="label.png"
+      alt=""
+      src="label.png"
     />
-    <span
-        className={undefined}
-    >
-        bitter
+    <span>
+      bitter
     </span>
-</div>,
+  </div>,
 ]
 `;

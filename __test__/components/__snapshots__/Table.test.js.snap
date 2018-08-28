@@ -1,36 +1,24 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders correctly 1`] = `
-<div
-  className={undefined}
->
-  <h2
-    className={undefined}
-  >
+<div>
+  <h2>
     My title
   </h2>
-  <div
-    className={undefined}
-  >
-    <div
-      className={undefined}
-    >
+  <div>
+    <div>
       <div
-        className={undefined}
         style={
           Object {
             "flex": 1,
           }
         }
       >
-        <span
-          className={undefined}
-        >
+        <span>
           Fuggles
         </span>
       </div>
       <div
-        className={undefined}
         style={
           Object {
             "flex": 1,
@@ -39,17 +27,13 @@ exports[`renders correctly 1`] = `
       >
         <img
           alt=""
-          className={undefined}
           src="weight.png"
         />
-        <span
-          className={undefined}
-        >
+        <span>
           25 grams
         </span>
       </div>
       <div
-        className={undefined}
         style={
           Object {
             "flex": 1,
@@ -58,17 +42,13 @@ exports[`renders correctly 1`] = `
       >
         <img
           alt=""
-          className={undefined}
           src="time.png"
         />
-        <span
-          className={undefined}
-        >
+        <span>
           start
         </span>
       </div>
       <div
-        className={undefined}
         style={
           Object {
             "flex": 1,
@@ -77,18 +57,13 @@ exports[`renders correctly 1`] = `
       >
         <img
           alt=""
-          className={undefined}
           src="label.png"
         />
-        <span
-          className={undefined}
-        >
+        <span>
           bitter
         </span>
       </div>
-      <div
-        className={undefined}
-      >
+      <div>
         <div
           className="undefined "
           onClick={[Function]}
@@ -98,9 +73,7 @@ exports[`renders correctly 1`] = `
             }
           }
         >
-          <p
-            className={undefined}
-          >
+          <p>
             Add
           </p>
           <div
@@ -114,25 +87,19 @@ exports[`renders correctly 1`] = `
         </div>
       </div>
     </div>
-    <div
-      className={undefined}
-    >
+    <div>
       <div
-        className={undefined}
         style={
           Object {
             "flex": 1,
           }
         }
       >
-        <span
-          className={undefined}
-        >
+        <span>
           First Gold
         </span>
       </div>
       <div
-        className={undefined}
         style={
           Object {
             "flex": 1,
@@ -141,17 +108,13 @@ exports[`renders correctly 1`] = `
       >
         <img
           alt=""
-          className={undefined}
           src="weight.png"
         />
-        <span
-          className={undefined}
-        >
+        <span>
           25 grams
         </span>
       </div>
       <div
-        className={undefined}
         style={
           Object {
             "flex": 1,
@@ -160,17 +123,13 @@ exports[`renders correctly 1`] = `
       >
         <img
           alt=""
-          className={undefined}
           src="time.png"
         />
-        <span
-          className={undefined}
-        >
+        <span>
           start
         </span>
       </div>
       <div
-        className={undefined}
         style={
           Object {
             "flex": 1,
@@ -179,18 +138,13 @@ exports[`renders correctly 1`] = `
       >
         <img
           alt=""
-          className={undefined}
           src="label.png"
         />
-        <span
-          className={undefined}
-        >
+        <span>
           bitter
         </span>
       </div>
-      <div
-        className={undefined}
-      >
+      <div>
         <div
           className="undefined "
           onClick={[Function]}
@@ -200,9 +154,7 @@ exports[`renders correctly 1`] = `
             }
           }
         >
-          <p
-            className={undefined}
-          >
+          <p>
             Add
           </p>
           <div
@@ -216,25 +168,19 @@ exports[`renders correctly 1`] = `
         </div>
       </div>
     </div>
-    <div
-      className={undefined}
-    >
+    <div>
       <div
-        className={undefined}
         style={
           Object {
             "flex": 1,
           }
         }
       >
-        <span
-          className={undefined}
-        >
+        <span>
           Fuggles
         </span>
       </div>
       <div
-        className={undefined}
         style={
           Object {
             "flex": 1,
@@ -243,17 +189,13 @@ exports[`renders correctly 1`] = `
       >
         <img
           alt=""
-          className={undefined}
           src="weight.png"
         />
-        <span
-          className={undefined}
-        >
+        <span>
           37.5 grams
         </span>
       </div>
       <div
-        className={undefined}
         style={
           Object {
             "flex": 1,
@@ -262,17 +204,13 @@ exports[`renders correctly 1`] = `
       >
         <img
           alt=""
-          className={undefined}
           src="time.png"
         />
-        <span
-          className={undefined}
-        >
+        <span>
           middle
         </span>
       </div>
       <div
-        className={undefined}
         style={
           Object {
             "flex": 1,
@@ -281,18 +219,13 @@ exports[`renders correctly 1`] = `
       >
         <img
           alt=""
-          className={undefined}
           src="label.png"
         />
-        <span
-          className={undefined}
-        >
+        <span>
           flavour
         </span>
       </div>
-      <div
-        className={undefined}
-      >
+      <div>
         <div
           className="undefined undefined"
           onClick={[Function]}
@@ -302,9 +235,7 @@ exports[`renders correctly 1`] = `
             }
           }
         >
-          <p
-            className={undefined}
-          >
+          <p>
             Add prev
           </p>
           <div
@@ -318,25 +249,19 @@ exports[`renders correctly 1`] = `
         </div>
       </div>
     </div>
-    <div
-      className={undefined}
-    >
+    <div>
       <div
-        className={undefined}
         style={
           Object {
             "flex": 1,
           }
         }
       >
-        <span
-          className={undefined}
-        >
+        <span>
           First Gold
         </span>
       </div>
       <div
-        className={undefined}
         style={
           Object {
             "flex": 1,
@@ -345,17 +270,13 @@ exports[`renders correctly 1`] = `
       >
         <img
           alt=""
-          className={undefined}
           src="weight.png"
         />
-        <span
-          className={undefined}
-        >
+        <span>
           37.5 grams
         </span>
       </div>
       <div
-        className={undefined}
         style={
           Object {
             "flex": 1,
@@ -364,17 +285,13 @@ exports[`renders correctly 1`] = `
       >
         <img
           alt=""
-          className={undefined}
           src="time.png"
         />
-        <span
-          className={undefined}
-        >
+        <span>
           middle
         </span>
       </div>
       <div
-        className={undefined}
         style={
           Object {
             "flex": 1,
@@ -383,18 +300,13 @@ exports[`renders correctly 1`] = `
       >
         <img
           alt=""
-          className={undefined}
           src="label.png"
         />
-        <span
-          className={undefined}
-        >
+        <span>
           flavour
         </span>
       </div>
-      <div
-        className={undefined}
-      >
+      <div>
         <div
           className="undefined undefined"
           onClick={[Function]}
@@ -404,9 +316,7 @@ exports[`renders correctly 1`] = `
             }
           }
         >
-          <p
-            className={undefined}
-          >
+          <p>
             Add prev
           </p>
           <div
@@ -420,25 +330,19 @@ exports[`renders correctly 1`] = `
         </div>
       </div>
     </div>
-    <div
-      className={undefined}
-    >
+    <div>
       <div
-        className={undefined}
         style={
           Object {
             "flex": 1,
           }
         }
       >
-        <span
-          className={undefined}
-        >
+        <span>
           Cascade
         </span>
       </div>
       <div
-        className={undefined}
         style={
           Object {
             "flex": 1,
@@ -447,17 +351,13 @@ exports[`renders correctly 1`] = `
       >
         <img
           alt=""
-          className={undefined}
           src="weight.png"
         />
-        <span
-          className={undefined}
-        >
+        <span>
           37.5 grams
         </span>
       </div>
       <div
-        className={undefined}
         style={
           Object {
             "flex": 1,
@@ -466,17 +366,13 @@ exports[`renders correctly 1`] = `
       >
         <img
           alt=""
-          className={undefined}
           src="time.png"
         />
-        <span
-          className={undefined}
-        >
+        <span>
           end
         </span>
       </div>
       <div
-        className={undefined}
         style={
           Object {
             "flex": 1,
@@ -485,18 +381,13 @@ exports[`renders correctly 1`] = `
       >
         <img
           alt=""
-          className={undefined}
           src="label.png"
         />
-        <span
-          className={undefined}
-        >
+        <span>
           flavour
         </span>
       </div>
-      <div
-        className={undefined}
-      >
+      <div>
         <div
           className="undefined undefined"
           onClick={[Function]}
@@ -506,9 +397,7 @@ exports[`renders correctly 1`] = `
             }
           }
         >
-          <p
-            className={undefined}
-          >
+          <p>
             Add prev
           </p>
           <div

@@ -2,7 +2,6 @@
 
 exports[`renders correctly with a gradient from \`from\` to \`to\` props 1`] = `
 <svg
-  className={undefined}
   viewBox="0 0 1445.797 391.5"
   xmlns="http://www.w3.org/2000/svg"
 >

@@ -4,13 +4,10 @@ exports[`renders correctly 1`] = `
 Array [
   <img
     alt=""
-    className={undefined}
     src="src-path"
-/>,
-  <span
-    className={undefined}
->
+  />,
+  <span>
     My label
-</span>,
+  </span>,
 ]
 `;

@@ -24,6 +24,7 @@
     "jest": false,
     "shallow": false,
     "describe": false,
-    "it": false
+    "it": false,
+    "beforeEach": false
   }
 }

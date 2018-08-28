@@ -2,37 +2,26 @@
 
 exports[`renders correctly 1`] = `
 <div
-  className={undefined}
   style={
     Object {
       "background": "pink",
     }
   }
 >
-  <div
-    className={undefined}
-  >
+  <div>
     <img
       alt="Beer bottle image"
       src="src-path"
     />
   </div>
-  <div
-    className={undefined}
-  >
-    <h4
-      className={undefined}
-    >
+  <div>
+    <h4>
       Beer name
     </h4>
-    <span
-      className={undefined}
-    >
+    <span>
       Alc. 5% By Vol.
     </span>
-    <p
-      className={undefined}
-    >
+    <p>
       Lorem ipmsum
     </p>
   </div>

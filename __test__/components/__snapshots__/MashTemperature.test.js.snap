@@ -1,29 +1,20 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders correctly 1`] = `
-<div
-  className={undefined}
->
-  <div
-    className={undefined}
-  >
+<div>
+  <div>
     <span>
       1
     </span>
   </div>
   <img
     alt=""
-    className={undefined}
     src="temperature.png"
   />
-  <span
-    className={undefined}
-  >
+  <span>
     19ºC
   </span>
-  <span
-    className={undefined}
-  >
+  <span>
     10s
   </span>
 </div>

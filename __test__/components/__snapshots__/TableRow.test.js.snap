@@ -1,15 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders correctly 1`] = `
-<div
-  className={undefined}
->
+<div>
   <p>
     hi
   </p>
-  <div
-    className={undefined}
-  >
+  <div>
     <div
       className="undefined "
       onClick={[Function]}
@@ -19,9 +15,7 @@ exports[`renders correctly 1`] = `
         }
       }
     >
-      <p
-        className={undefined}
-      >
+      <p>
         Add
       </p>
       <div

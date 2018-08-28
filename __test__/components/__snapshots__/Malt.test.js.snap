@@ -3,37 +3,30 @@
 exports[`renders correctly 1`] = `
 Array [
   <div
-    className={undefined}
     style={
-        Object {
-            "flex": 1,
-          }
+      Object {
+        "flex": 1,
+      }
     }
->
-    <span
-        className={undefined}
-    >
-        Maris Otter Extra Pale
+  >
+    <span>
+      Maris Otter Extra Pale
     </span>
-</div>,
+  </div>,
   <div
-    className={undefined}
     style={
-        Object {
-            "flex": 1,
-          }
+      Object {
+        "flex": 1,
+      }
     }
->
+  >
     <img
-        alt=""
-        className={undefined}
-        src="weight.png"
+      alt=""
+      src="weight.png"
     />
-    <span
-        className={undefined}
-    >
-        3.3 kilograms
+    <span>
+      3.3 kilograms
     </span>
-</div>,
+  </div>,
 ]
 `;

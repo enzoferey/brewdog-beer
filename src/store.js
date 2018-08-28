@@ -19,17 +19,25 @@ class Store extends React.Component {
   };
 
   componentDidMount = async () => {
+    // Show spinner after WAIT_TIME
+    this.setTimeoutSpinner();
+
     try {
       const response = await getAllBeers();
       this.setBeers(Immutable.fromJS(response.data));
     } catch (e) {
       // Proper error display should be done here instead of forcing an always working demo
+      console.log("from JSON");
       this.setBeers(Immutable.fromJS(mockBeers));
     }
   };
 
   componentWillUnmount = () => {
     clearTimeout(this._spinnerTimeout);
+  };
+
+  setTimeoutSpinner = () => {
+    this._spinnerTimeout = setTimeout(this.showSpinner, WAIT_TIME);
   };
 
   showSpinner = () => {
@@ -78,10 +86,7 @@ class Store extends React.Component {
 
     if (fetching) {
       if (spinner) return <Spinner />;
-      else {
-        this._spinnerTimeout = setTimeout(this.showSpinner, WAIT_TIME);
-        return null; // don't render anything until WAIT_TIME has passed
-      }
+      else return null; // don't render anything until WAIT_TIME has passed
     }
 
     return (

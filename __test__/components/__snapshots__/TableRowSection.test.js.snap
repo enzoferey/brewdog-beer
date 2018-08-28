@@ -2,7 +2,6 @@
 
 exports[`applies \`flex\` prop correctly 1`] = `
 <div
-  className={undefined}
   style={
     Object {
       "flex": 2,
@@ -13,7 +12,6 @@ exports[`applies \`flex\` prop correctly 1`] = `
 
 exports[`renders correctly 1`] = `
 <div
-  className={undefined}
   style={
     Object {
       "flex": 1,
