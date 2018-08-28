@@ -4,6 +4,8 @@ import style from "./table.scss";
 
 import uuid from "uuid/v4";
 
+import theme from "theme";
+
 import TableRow from "components/TableRow";
 import Hop from "components/Hop";
 import Malt from "components/Malt";
@@ -42,28 +44,40 @@ const getDuration = (type, temperatures) => {
 
 const DefaultItem = props => <p>{JSON.stringify(props)}</p>;
 
-const Table = ({ title, type, rows, startDone, middleDone, setDone }) => {
+const Table = ({
+  title,
+  type,
+  rows,
+  startDone,
+  middleDone,
+  setDone,
+  gradient,
+}) => {
   const Item = getElement(type);
 
   return (
     <div className={style.main}>
       <h2 className={style.title}>{title}</h2>
-      {rows.map((row, index) => {
-        const waiting = getWaiting(type, row.add, startDone, middleDone);
-        const duration = getDuration(type, row.mash_temp);
-        return (
-          <TableRow
-            key={uuid()}
-            item={<Item {...row} />}
-            done={row.done}
-            duration={duration}
-            waiting={waiting}
-            callback={() => {
-              setDone(index);
-            }}
-          />
-        );
-      })}
+      <div className={style.table}>
+        {rows.map((row, index) => {
+          const waiting = getWaiting(type, row.add, startDone, middleDone);
+          const duration = getDuration(type, row.mash_temp);
+          const gradientButton = waiting ? theme.gradientGrey : gradient;
+          return (
+            <TableRow
+              key={uuid()}
+              item={<Item {...row} />}
+              done={row.done}
+              duration={duration}
+              waiting={waiting}
+              callback={() => {
+                setDone(index);
+              }}
+              gradientButton={gradientButton}
+            />
+          );
+        })}
+      </div>
     </div>
   );
 };
@@ -75,6 +89,7 @@ Table.propTypes = {
   startDone: PropTypes.bool,
   middleDone: PropTypes.bool,
   setDone: PropTypes.func,
+  gradient: PropTypes.string,
 };
 
 export default Table;

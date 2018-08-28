@@ -18,6 +18,8 @@ $gradient-yellow-svg-from: #fb872b;
 $gradient-yellow-svg-to: #d9e021;
 $gradient-yellow: linear-gradient(to top left, #fb872b, #e5c024);
 
+$gradient-grey: linear-gradient(to top left, #9b9b9b, #c7c7c7);
+
 :export {
   gradientOrangeSvgFrom: $gradient-orange-svg-from;
   gradientOrangeSvgTo: $gradient-orange-svg-to;
@@ -34,4 +36,5 @@ $gradient-yellow: linear-gradient(to top left, #fb872b, #e5c024);
   gradientYellowSvgFrom: $gradient-yellow-svg-from;
   gradientYellowSvgTo: $gradient-yellow-svg-to;
   gradientYellow: $gradient-yellow;
+  gradientGrey: $gradient-grey;
 }

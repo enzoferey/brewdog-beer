@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 import backArrow from "./back-arrow.png";
 
 import getGradientSVG from "utils/getGradientSVG";
+import getGradient from "utils/getGradient";
 
 import NotFound from "pages/NotFound";
 
@@ -56,7 +57,7 @@ const Beer = ({ beers, match, setHopDone, setMaltDone, setMethodDone }) => {
 
   // Get its gradient
   const ovaleGradient = getGradientSVG(beerIndex);
-  console.log(ovaleGradient);
+  const gradient = getGradient(beerIndex);
 
   // Ambiguious requirement as method field is an object in the API
   const methodRows = Array.isArray(method) ? method : [method];
@@ -83,18 +84,21 @@ const Beer = ({ beers, match, setHopDone, setMaltDone, setMethodDone }) => {
             startDone={startDone}
             middleDone={middleDone}
             setDone={hopIndex => setHopDone(beer.id, hopIndex)}
+            gradient={gradient}
           />
           <Table
             title="Malts"
             type="malt"
             rows={malt}
             setDone={maltIndex => setMaltDone(beer.id, maltIndex)}
+            gradient={gradient}
           />
           <Table
             title="Methods"
             type="method"
             rows={methodRows}
             setDone={methodIndex => setMethodDone(beer.id, methodIndex)}
+            gradient={gradient}
           />
         </div>
       </div>

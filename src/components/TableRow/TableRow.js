@@ -4,7 +4,14 @@ import style from "./table-row.scss";
 
 import Button from "components/Button";
 
-const TableRow = ({ item, done, duration, waiting, callback }) => (
+const TableRow = ({
+  item,
+  done,
+  duration,
+  waiting,
+  callback,
+  gradientButton,
+}) => (
   <div className={style.main}>
     {item}
     <Button
@@ -12,6 +19,7 @@ const TableRow = ({ item, done, duration, waiting, callback }) => (
       delay={duration}
       waiting={waiting}
       callback={callback}
+      background={gradientButton}
     />
   </div>
 );

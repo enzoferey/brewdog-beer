@@ -70,7 +70,7 @@ class Button extends React.Component {
     const { countdown } = this.state;
     const { done, waiting } = this.props;
 
-    if (waiting) return "Complete prev";
+    if (waiting) return "Add prev";
     if (done) return "Added !";
     if (countdown > 0) return `${countdown} s`;
     return "Add";
@@ -85,10 +85,11 @@ class Button extends React.Component {
 
   render = () => {
     const { countdown } = this.state;
-    const { waiting } = this.props;
+    const { waiting, background } = this.props;
 
     return (
       <div
+        style={{ background }}
         className={`${style.main} ${waiting ? style.waiting : ""}`}
         onClick={this.onClick}
       >
@@ -109,6 +110,7 @@ Button.propTypes = {
   delay: PropTypes.number,
   waiting: PropTypes.bool,
   callback: PropTypes.func,
+  background: PropTypes.string,
 };
 
 export default Button;
