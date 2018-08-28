@@ -1,4 +1,6 @@
 $height: 290px;
+$hover-movement: 15px;
+$padding-sides: 40px;
 
 .main {
   width: 100%;
@@ -13,7 +15,11 @@ $height: 290px;
     }
 
     .photo {
-      width: calc(#{$height} + 15px);
+      width: calc(#{$height} + #{$hover-movement});
+    }
+
+    .details {
+      padding-right: calc(#{$padding-sides} - #{$hover-movement});
     }
   }
 }
@@ -37,8 +43,9 @@ $height: 290px;
 .details {
   flex: 1;
   height: 100%;
-  padding: 32px 40px;
+  padding: 32px #{$padding-sides};
   box-sizing: border-box;
+  transition: padding-right 0.3s;
 }
 
 .name {
