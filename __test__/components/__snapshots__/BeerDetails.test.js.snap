@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className={undefined}
+>
+  <img
+    alt="Beer bottle image"
+    className={undefined}
+    src="src-path"
+  />
+  <h2
+    className={undefined}
+  >
+    Beer name
+  </h2>
+  <h4
+    className={undefined}
+  >
+    Alc. 5% By Vol.
+  </h4>
+  <p
+    className={undefined}
+  >
+    Lorem ipmsum
+  </p>
+</div>
+`;
