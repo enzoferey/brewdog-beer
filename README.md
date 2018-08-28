@@ -4,7 +4,19 @@ Web app to display beers from https://punkapi.com/documentation/v2
 
 ## Usage
 
-[TODO]
+The app is uploaded at [https://wonderful-banach-b79042.netlify.com/](https://wonderful-banach-b79042.netlify.com/).
+
+### How to run locally
+
+1. Clone the repository
+2. Run `npm start`
+3. The browser should open pointing to [localhost:3000](http://locahost:3000)
+
+### Test
+
+1. Clone the repository
+2. Run `npm run test`
+3. All details of the run will be displayed as well as the coverage
 
 ## Architecture choices
 
@@ -17,6 +29,8 @@ Web app to display beers from https://punkapi.com/documentation/v2
 - "Methods" were always referred in plural, however in the API data the field is singular and an object type rather an array. The app also works when the field is an array but it adds complexity and it's confusing.
 
 - The methods duration don't have a time unit, I assumed seconds.
+
+- The task to be done with Hops, Malts and Methods was labelled "Add" as I'm not sure what the proper word should be.
 
 - You can see a lot of devDependencies but they are all related to ejecting a create-react-app. I have written many Webpack configurations from scratch but it's not worth my time here.
 
@@ -32,3 +46,5 @@ Web app to display beers from https://punkapi.com/documentation/v2
 
   - `axios`: HTTP requests simplified and promises
   - `immutable`: easier state manipulation
+
+- This code test was done in under 20 hours.
