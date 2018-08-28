@@ -2,10 +2,18 @@ import React from "react";
 import PropTypes from "prop-types";
 import style from "./beer.scss";
 
+import { Link } from "react-router-dom";
+
+import backArrow from "./back-arrow.png";
+
+import getGradientSVG from "utils/getGradientSVG";
+
 import NotFound from "pages/NotFound";
 
 import BeerDetails from "components/BeerDetails";
 import RowList from "components/RowList";
+import PageContainer from "components/PageContainer";
+import Ovale from "components/Ovale";
 
 const checkHops = hops => {
   // Get by type
@@ -25,9 +33,12 @@ const checkHops = hops => {
 };
 
 const Beer = ({ beers, match, setHopDone, setMaltDone, setMethodDone }) => {
+  // Get the beer
   const urlBeer = match.params.beerName;
-  const beer = beers.find(beer => beer.name === urlBeer);
+  const beerIndex = beers.findIndex(beer => beer.name === urlBeer);
+  const beer = beers[beerIndex];
 
+  // Show not found when no beer matches the name
   if (!beer)
     return (
       <NotFound
@@ -43,6 +54,10 @@ const Beer = ({ beers, match, setHopDone, setMaltDone, setMethodDone }) => {
     ...rest
   } = beer;
 
+  // Get its gradient
+  const ovaleGradient = getGradientSVG(beerIndex);
+  console.log(ovaleGradient);
+
   // Ambiguious requirement as method field is an object in the API
   const methodRows = Array.isArray(method) ? method : [method];
 
@@ -50,29 +65,40 @@ const Beer = ({ beers, match, setHopDone, setMaltDone, setMethodDone }) => {
   const { startDone, middleDone } = checkHops(hops);
 
   return (
-    <div className={style.main}>
-      <BeerDetails image={image} {...rest} />
-      <RowList
-        title="Hops"
-        type="hop"
-        rows={hops}
-        startDone={startDone}
-        middleDone={middleDone}
-        setDone={hopIndex => setHopDone(beer.id, hopIndex)}
-      />
-      <RowList
-        title="Malts"
-        type="malt"
-        rows={malt}
-        setDone={maltIndex => setMaltDone(beer.id, maltIndex)}
-      />
-      <RowList
-        title="Methods"
-        type="method"
-        rows={methodRows}
-        setDone={methodIndex => setMethodDone(beer.id, methodIndex)}
-      />
-    </div>
+    <PageContainer background={style.backgroundOverflow}>
+      <div className={style.main}>
+        <div className={style.ovale}>
+          <Ovale {...ovaleGradient} />
+        </div>
+        <Link className={style.backIcon} to="/">
+          <img src={backArrow} alt="Back arrow icon" />
+          Back
+        </Link>
+        <div className={style.content}>
+          <BeerDetails image={image} {...rest} />
+          <RowList
+            title="Hops"
+            type="hop"
+            rows={hops}
+            startDone={startDone}
+            middleDone={middleDone}
+            setDone={hopIndex => setHopDone(beer.id, hopIndex)}
+          />
+          <RowList
+            title="Malts"
+            type="malt"
+            rows={malt}
+            setDone={maltIndex => setMaltDone(beer.id, maltIndex)}
+          />
+          <RowList
+            title="Methods"
+            type="method"
+            rows={methodRows}
+            setDone={methodIndex => setMethodDone(beer.id, methodIndex)}
+          />
+        </div>
+      </div>
+    </PageContainer>
   );
 };
 

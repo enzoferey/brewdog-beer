@@ -1,13 +1,37 @@
+$gradient-orange-svg-from: #d4145a;
+$gradient-orange-svg-to: #fbb03b;
 $gradient-orange: linear-gradient(to top left, #d4145a, #ed7846);
+
+$gradient-green-svg-from: #009245;
+$gradient-green-svg-to: #fcee21;
 $gradient-green: linear-gradient(to top left, #009245, #a2cd2e);
+
+$gradient-purple-svg-from: #662d8c;
+$gradient-purple-svg-to: #ed1e79;
 $gradient-purple: linear-gradient(to top left, #662d8c, #bc2380);
+
+$gradient-blue-svg-from: #00a8c5;
+$gradient-blue-svg-to: #ffff7e;
 $gradient-blue: linear-gradient(to top left, #00a8c5, #a4e097);
+
+$gradient-yellow-svg-from: #fb872b;
+$gradient-yellow-svg-to: #d9e021;
 $gradient-yellow: linear-gradient(to top left, #fb872b, #e5c024);
 
 :export {
+  gradientOrangeSvgFrom: $gradient-orange-svg-from;
+  gradientOrangeSvgTo: $gradient-orange-svg-to;
   gradientOrange: $gradient-orange;
+  gradientGreenSvgFrom: $gradient-green-svg-from;
+  gradientGreenSvgTo: $gradient-green-svg-to;
   gradientGreen: $gradient-green;
+  gradientPurpleSvgFrom: $gradient-purple-svg-from;
+  gradientPurpleSvgTo: $gradient-purple-svg-to;
   gradientPurple: $gradient-purple;
+  gradientBlueSvgFrom: $gradient-blue-svg-from;
+  gradientBlueSvgTo: $gradient-blue-svg-to;
   gradientBlue: $gradient-blue;
+  gradientYellowSvgFrom: $gradient-yellow-svg-from;
+  gradientYellowSvgTo: $gradient-yellow-svg-to;
   gradientYellow: $gradient-yellow;
 }

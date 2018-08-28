@@ -12,6 +12,18 @@ import Spinner from "pages/Spinner";
 
 const WAIT_TIME = 400; // maximum time to wait before display a spinner
 
+const withResetScroll = Component =>
+  class extends React.PureComponent {
+    componentDidMount = () => {
+      window.scrollTo(0, 0);
+    };
+
+    render = () => <Component {...this.props} />;
+  };
+
+const BeerListScroll = withResetScroll(BeerList);
+const BeerScroll = withResetScroll(Beer);
+
 class Routes extends React.Component {
   state = {
     beers: Immutable.List(),
@@ -79,7 +91,7 @@ class Routes extends React.Component {
   );
 
   renderBeer = props =>
-    this.withBeers(Beer)({
+    this.withBeers(BeerScroll)({
       ...props,
       setHopDone: this.setHopDone,
       setMaltDone: this.setMaltDone,
@@ -100,7 +112,7 @@ class Routes extends React.Component {
     return (
       <Router>
         <Switch>
-          <Route exact path="/" render={this.withBeers(BeerList)} />
+          <Route exact path="/" render={this.withBeers(BeerListScroll)} />
           <Route exact path="/:beerName" render={this.renderBeer} />
           <Route component={NotFound} />
         </Switch>

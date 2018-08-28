@@ -25,7 +25,7 @@ const BeerListItem = ({ background, image, name, abv, description }) => (
     </div>
     <div className={style.details}>
       <h4 className={style.name}>{name}</h4>
-      <span className={style.attributes}>{`${abv}%`}</span>
+      <span className={style.attributes}>{`Alc. ${abv}% By Vol.`}</span>
       <p className={style.description}>{getMaxDescription(description)}</p>
     </div>
   </div>

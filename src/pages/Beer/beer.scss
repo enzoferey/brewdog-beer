@@ -1,3 +1,39 @@
+:export {
+  backgroundOverflow: #cdcdcd;
+}
+
 .main {
-	color: green;
+  position: relative;
+  overflow: hidden;
+}
+
+.backIcon {
+  position: absolute;
+  top: 31px;
+  left: 33px;
+  color: white;
+  font-size: 21px;
+  text-decoration: none;
+
+  > img {
+    height: 22px;
+    vertical-align: text-top;
+    margin-right: 15px;
+  }
+}
+
+.ovale {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 120%;
+  transform: translateX(-8%);
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  width: 90%;
+  max-width: 905px;
+  margin: 15% auto 0;
 }

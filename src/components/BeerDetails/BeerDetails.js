@@ -2,17 +2,13 @@ import React from "react";
 import PropTypes from "prop-types";
 import style from "./beer-details.scss";
 
-import PageContainer from "components/PageContainer";
-
 const BeerDetails = ({ image, name, abv, description }) => (
-  <PageContainer>
-    <div className={style.details}>
-      <img src={image} alt="" />
-      <h2>{name}</h2>
-      <h4>{`${abv}%`}</h4>
-      <p>{description}</p>
-    </div>
-  </PageContainer>
+  <div className={style.details}>
+    <img className={style.photo} src={image} alt="Beer bottle image" />
+    <h2 className={style.name}>{name}</h2>
+    <h4 className={style.attributes}>{`Alc. ${abv}% By Vol.`}</h4>
+    <p className={style.description}>{description}</p>
+  </div>
 );
 
 BeerDetails.propTypes = {
