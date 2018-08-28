@@ -27,7 +27,10 @@
   top: 0;
   left: 0;
   width: 120%;
-  transform: translateX(-8%);
+
+  animation-name: scaleUp;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
 }
 
 .content {
@@ -36,4 +39,28 @@
   width: 90%;
   max-width: 905px;
   margin: 15% auto 0;
+
+  animation-name: goUp;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes goUp {
+  from {
+    top: 50px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes scaleUp {
+  from {
+    transform: translateX(-8%) scale(0.5);
+  }
+  to {
+    transform: translateX(-8%) scale(1);
+  }
 }
