@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`applies \`background\` prop correctly 1`] = `
+<div
+  style={
+    Object {
+      "backgroundColor": "pink",
+    }
+  }
+>
+  <div
+    className={undefined}
+  />
+</div>
+`;
+
+exports[`renders correctly 1`] = `
+<div
+  style={
+    Object {
+      "backgroundColor": "white",
+    }
+  }
+>
+  <div
+    className={undefined}
+  />
+</div>
+`;
