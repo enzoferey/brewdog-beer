@@ -7,7 +7,7 @@ import timeIcon from "components/Table/time.png";
 import labelIcon from "components/Table/label.png";
 
 import TableRowSection from "components/TableRowSection";
-import { IconLabel } from "components/TableRow";
+import IconLabel from "components/IconLabel";
 
 const Hop = ({ name, amount: { value, unit }, add, attribute }) => (
   <Fragment>

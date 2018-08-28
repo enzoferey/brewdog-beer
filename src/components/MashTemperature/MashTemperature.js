@@ -6,7 +6,7 @@ import temperatureIcon from "components/Table/temperature.png";
 
 import getBeautifulTemp from "utils/getBeautifulTemp";
 
-import { IconLabel } from "components/TableRow";
+import IconLabel from "components/IconLabel";
 
 const MashTemperature = ({ index, value, unit, duration }) => (
   <div className={style.main}>

@@ -5,7 +5,7 @@ import style from "./malt.scss";
 import weigthIcon from "components/Table/weight.png";
 
 import TableRowSection from "components/TableRowSection";
-import { IconLabel } from "components/TableRow";
+import IconLabel from "components/IconLabel";
 
 const Malt = ({ name, amount: { value, unit } }) => (
   <Fragment>

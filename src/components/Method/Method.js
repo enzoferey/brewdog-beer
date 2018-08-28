@@ -7,7 +7,7 @@ import fermentationIcon from "components/Table/fermentation.png";
 import getBeautifulTemp from "utils/getBeautifulTemp";
 
 import TableRowSection from "components/TableRowSection";
-import { IconLabel } from "components/TableRow";
+import IconLabel from "components/IconLabel";
 import MashTemperature from "components/MashTemperature";
 
 const Method = ({

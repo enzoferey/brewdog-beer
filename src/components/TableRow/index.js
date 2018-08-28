@@ -1,1 +1,1 @@
-export { IconLabel, default } from "./TableRow";
+export { default } from "./TableRow";

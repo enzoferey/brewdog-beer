@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+Array [
+  <img
+    alt=""
+    className={undefined}
+    src="src-path"
+/>,
+  <span
+    className={undefined}
+>
+    My label
+</span>,
+]
+`;
