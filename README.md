@@ -26,6 +26,7 @@ Web app to display beers from https://punkapi.com/documentation/v2
   - `babel-plugin-module-resolver`for babel aliases
   - `plop` for code generation
   - `prettier` for auto formatting
+  - `enzyme`, `enzyme-adapter-react-16`, `enzyme-react-16-adapter-setup` and `jest-enzyme` for Enzyme support in Jest
 
 - Libraries used:
 

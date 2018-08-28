@@ -10,15 +10,24 @@
     "plop": "plop"
   },
   "jest": {
+    "cacheDirectory": "./cache",
+    "collectCoverage": true,
     "collectCoverageFrom": [
       "src/**/*.{js,jsx,mjs}"
     ],
+    "coverageThreshold": {
+      "global": {
+        "statements": 80
+      }
+    },
+    "setupTestFrameworkScriptFile": "./node_modules/jest-enzyme/lib/index.js",
     "setupFiles": [
-      "<rootDir>/config/polyfills.js"
+      "enzyme-react-16-adapter-setup",
+      "<rootDir>/config/polyfills.js",
+      "./__test__/setup.js"
     ],
     "testMatch": [
-      "<rootDir>/src/**/__tests__/**/*.{js,jsx,mjs}",
-      "<rootDir>/src/**/?(*.)(spec|test).{js,jsx,mjs}"
+      "<rootDir>/__test__/{utils,components,pages}/*.{js,jsx,mjs}"
     ],
     "testEnvironment": "node",
     "testURL": "http://localhost",
@@ -31,11 +40,7 @@
       "[/\\\\]node_modules[/\\\\].+\\.(js|jsx|mjs)$"
     ],
     "moduleNameMapper": {
-      "^react-native$": "react-native-web",
-      "components/(.*)": "<rootDir>/src/components/$1",
-      "pages/(.*)": "<rootDir>/src/pages/$1",
-      "utils/(.*)": "<rootDir>/src/utils/$1",
-      "db": "<rootDir>/src/database.js"
+      "^react-native$": "react-native-web"
     },
     "moduleFileExtensions": [
       "web.js",
@@ -61,6 +66,9 @@
     "css-loader": "0.28.7",
     "dotenv": "4.0.0",
     "dotenv-expand": "4.2.0",
+    "enzyme": "^3.5.0",
+    "enzyme-adapter-react-16": "^1.3.0",
+    "enzyme-react-16-adapter-setup": "^0.1.0",
     "eslint": "4.10.0",
     "eslint-config-react-app": "^2.1.0",
     "eslint-loader": "1.9.0",
@@ -73,6 +81,7 @@
     "fs-extra": "3.0.1",
     "html-webpack-plugin": "2.29.0",
     "jest": "20.0.4",
+    "jest-enzyme": "^6.0.4",
     "node-sass": "^4.9.3",
     "object-assign": "4.1.1",
     "plop": "^2.1.0",
