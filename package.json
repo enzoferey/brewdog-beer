@@ -19,7 +19,8 @@
       "!src/database.js",
       "!src/index.js",
       "!src/registerServiceWorker.js",
-      "!src/routes.js"
+      "!src/routes.js",
+      "!src/**/index.js"
     ],
     "coverageThreshold": {
       "global": {
