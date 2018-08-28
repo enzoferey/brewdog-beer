@@ -46,5 +46,6 @@ The app is uploaded at [https://wonderful-banach-b79042.netlify.com/](https://wo
 
   - `axios`: HTTP requests simplified and promises
   - `immutable`: easier state manipulation
+  - `react-router-dom`: for app routing
 
 - This code test was done in under 20 hours.
