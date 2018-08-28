@@ -27,7 +27,6 @@ class Store extends React.Component {
       this.setBeers(Immutable.fromJS(response.data));
     } catch (e) {
       // Proper error display should be done here instead of forcing an always working demo
-      console.log("from JSON");
       this.setBeers(Immutable.fromJS(mockBeers));
     }
   };
