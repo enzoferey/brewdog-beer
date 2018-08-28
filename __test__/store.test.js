@@ -91,13 +91,13 @@ describe("beers manipulation", () => {
     it("should mark it as done", () => {
       wrapper.setState({ beers: Immutable.fromJS(mocks.beers) });
 
-      // Set hop done
+      // Set Hop done
       const beerIndex = 0;
       const beerId = mocks.beers[beerIndex].id;
       const hopIndex = mocks.beers[beerIndex].ingredients.hops.length - 1;
       wrapper.instance().setHopDone(beerId, hopIndex);
 
-      // Get hope
+      // Get Hop
       const hop = wrapper
         .state("beers")
         .getIn([beerIndex, "ingredients", "hops", hopIndex]);
@@ -109,13 +109,13 @@ describe("beers manipulation", () => {
     it("should mark it as done", () => {
       wrapper.setState({ beers: Immutable.fromJS(mocks.beers) });
 
-      // Set hop done
+      // Set Malt done
       const beerIndex = 0;
       const beerId = mocks.beers[beerIndex].id;
       const maltIndex = mocks.beers[beerIndex].ingredients.malt.length - 1;
       wrapper.instance().setMaltDone(beerId, maltIndex);
 
-      // Get hope
+      // Get Malt
       const malt = wrapper
         .state("beers")
         .getIn([beerIndex, "ingredients", "malt", maltIndex]);
@@ -124,17 +124,37 @@ describe("beers manipulation", () => {
   });
 
   describe("when a Method is done", () => {
-    it("should mark it as done", () => {
+    beforeEach(() => {
       wrapper.setState({ beers: Immutable.fromJS(mocks.beers) });
+    });
 
-      // Set hop done
-      const beerIndex = 0;
-      const beerId = mocks.beers[beerIndex].id;
-      wrapper.instance().setMethodDone(beerId);
+    describe("when the Method field is an object", () => {
+      it("should mark it as done", () => {
+        // Set Method done
+        const beerIndex = 0;
+        const beerId = mocks.beers[beerIndex].id;
+        wrapper.instance().setMethodDone(beerId);
 
-      // Get hope
-      const method = wrapper.state("beers").getIn([beerIndex, "method"]);
-      expect(method.get("done")).toBe(true);
+        // Get Method
+        const method = wrapper.state("beers").getIn([beerIndex, "method"]);
+        expect(method.get("done")).toBe(true);
+      });
+    });
+
+    describe("when the Method field is an array", () => {
+      it("should mark it as done", () => {
+        // Set Method done
+        const beerIndex = 1;
+        const beerId = mocks.beers[beerIndex].id;
+        const methodIndex = mocks.beers[beerIndex].method.length - 1;
+        wrapper.instance().setMethodDone(beerId, methodIndex);
+
+        // Get Method
+        const method = wrapper
+          .state("beers")
+          .getIn([beerIndex, "method", methodIndex]);
+        expect(method.get("done")).toBe(true);
+      });
     });
   });
 });

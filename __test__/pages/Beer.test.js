@@ -13,6 +13,15 @@ test("renders correctly", () => {
   );
 });
 
+test("renders correctly with array method", () => {
+  testSnapshot(
+    <BeerRouter
+      beers={mocks.beers}
+      match={{ params: { beerName: mocks.beers[1].name } }}
+    />
+  );
+});
+
 test("renders NotFound when unkown beer name", () => {
   const wrapper = shallow(
     <BeerRouter

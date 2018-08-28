@@ -396,24 +396,44 @@ export const beers = [
       value: 25,
       unit: "liters",
     },
-    method: {
-      mash_temp: [
-        {
+    method: [
+      {
+        mash_temp: [
+          {
+            temp: {
+              value: 69,
+              unit: "celsius",
+            },
+            duration: null,
+          },
+        ],
+        fermentation: {
           temp: {
-            value: 69,
+            value: 18,
             unit: "celsius",
           },
-          duration: null,
         },
-      ],
-      fermentation: {
-        temp: {
-          value: 18,
-          unit: "celsius",
-        },
+        twist: null,
       },
-      twist: null,
-    },
+      {
+        mash_temp: [
+          {
+            temp: {
+              value: 69,
+              unit: "celsius",
+            },
+            duration: null,
+          },
+        ],
+        fermentation: {
+          temp: {
+            value: 18,
+            unit: "celsius",
+          },
+        },
+        twist: null,
+      },
+    ],
     ingredients: {
       malt: [
         {

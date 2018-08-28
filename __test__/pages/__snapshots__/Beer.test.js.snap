@@ -726,3 +726,721 @@ exports[`renders correctly 1`] = `
   </div>
 </div>
 `;
+
+exports[`renders correctly with array method 1`] = `
+<div
+  style={
+    Object {
+      "backgroundColor": "white",
+    }
+  }
+>
+  <div>
+    <div>
+      <div>
+        <svg
+          viewBox="0 0 1445.797 391.5"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <defs>
+            <linearGradient
+              gradientUnits="objectBoundingBox"
+              id="linear-gradient"
+              x1="0.061"
+              x2="1.479"
+              y2="1.666"
+            >
+              <stop
+                offset="0"
+              />
+              <stop
+                offset="1"
+              />
+            </linearGradient>
+          </defs>
+          <path
+            d="M722.9,0c399.246,0,722.9,175.281,722.9,391.5H0C0,175.281,323.653,0,722.9,0Z"
+            fill="url(#linear-gradient)"
+            transform="translate(1445.797 391.5) rotate(180)"
+          />
+        </svg>
+      </div>
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+        <img
+          alt="Back arrow icon"
+          src="back-arrow.png"
+        />
+        Back
+      </a>
+      <div>
+        <div>
+          <img
+            alt="Beer bottle image"
+            src="https://images.punkapi.com/v2/2.png"
+          />
+          <h2>
+            Trashy Blonde
+          </h2>
+          <h4>
+            Alc. 4.1% By Vol.
+          </h4>
+          <p>
+            A titillating, neurotic, peroxide punk of a Pale Ale. Combining attitude, style, substance, and a little bit of low self esteem for good measure; what would your mother say? The seductive lure of the sassy passion fruit hop proves too much to resist. All that is even before we get onto the fact that there are no additives, preservatives, pasteurization or strings attached. All wrapped up with the customary BrewDog bite and imaginative twist.
+          </p>
+        </div>
+        <div>
+          <h2>
+            Hops
+          </h2>
+          <div>
+            <div>
+              <div
+                style={
+                  Object {
+                    "flex": 1,
+                  }
+                }
+              >
+                <span>
+                  Amarillo
+                </span>
+              </div>
+              <div
+                style={
+                  Object {
+                    "flex": 1,
+                  }
+                }
+              >
+                <img
+                  alt=""
+                  src="weight.png"
+                />
+                <span>
+                  13.8 grams
+                </span>
+              </div>
+              <div
+                style={
+                  Object {
+                    "flex": 1,
+                  }
+                }
+              >
+                <img
+                  alt=""
+                  src="time.png"
+                />
+                <span>
+                  start
+                </span>
+              </div>
+              <div
+                style={
+                  Object {
+                    "flex": 1,
+                  }
+                }
+              >
+                <img
+                  alt=""
+                  src="label.png"
+                />
+                <span>
+                  bitter
+                </span>
+              </div>
+              <div>
+                <div
+                  className="undefined "
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "background": undefined,
+                    }
+                  }
+                >
+                  <p>
+                    Add
+                  </p>
+                  <div
+                    className="undefined "
+                    style={
+                      Object {
+                        "width": "NaN%",
+                      }
+                    }
+                  />
+                </div>
+              </div>
+            </div>
+            <div>
+              <div
+                style={
+                  Object {
+                    "flex": 1,
+                  }
+                }
+              >
+                <span>
+                  Simcoe
+                </span>
+              </div>
+              <div
+                style={
+                  Object {
+                    "flex": 1,
+                  }
+                }
+              >
+                <img
+                  alt=""
+                  src="weight.png"
+                />
+                <span>
+                  13.8 grams
+                </span>
+              </div>
+              <div
+                style={
+                  Object {
+                    "flex": 1,
+                  }
+                }
+              >
+                <img
+                  alt=""
+                  src="time.png"
+                />
+                <span>
+                  start
+                </span>
+              </div>
+              <div
+                style={
+                  Object {
+                    "flex": 1,
+                  }
+                }
+              >
+                <img
+                  alt=""
+                  src="label.png"
+                />
+                <span>
+                  bitter
+                </span>
+              </div>
+              <div>
+                <div
+                  className="undefined "
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "background": undefined,
+                    }
+                  }
+                >
+                  <p>
+                    Add
+                  </p>
+                  <div
+                    className="undefined "
+                    style={
+                      Object {
+                        "width": "NaN%",
+                      }
+                    }
+                  />
+                </div>
+              </div>
+            </div>
+            <div>
+              <div
+                style={
+                  Object {
+                    "flex": 1,
+                  }
+                }
+              >
+                <span>
+                  Amarillo
+                </span>
+              </div>
+              <div
+                style={
+                  Object {
+                    "flex": 1,
+                  }
+                }
+              >
+                <img
+                  alt=""
+                  src="weight.png"
+                />
+                <span>
+                  26.3 grams
+                </span>
+              </div>
+              <div
+                style={
+                  Object {
+                    "flex": 1,
+                  }
+                }
+              >
+                <img
+                  alt=""
+                  src="time.png"
+                />
+                <span>
+                  end
+                </span>
+              </div>
+              <div
+                style={
+                  Object {
+                    "flex": 1,
+                  }
+                }
+              >
+                <img
+                  alt=""
+                  src="label.png"
+                />
+                <span>
+                  flavour
+                </span>
+              </div>
+              <div>
+                <div
+                  className="undefined "
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "background": undefined,
+                    }
+                  }
+                >
+                  <p>
+                    Add
+                  </p>
+                  <div
+                    className="undefined "
+                    style={
+                      Object {
+                        "width": "NaN%",
+                      }
+                    }
+                  />
+                </div>
+              </div>
+            </div>
+            <div>
+              <div
+                style={
+                  Object {
+                    "flex": 1,
+                  }
+                }
+              >
+                <span>
+                  Motueka
+                </span>
+              </div>
+              <div
+                style={
+                  Object {
+                    "flex": 1,
+                  }
+                }
+              >
+                <img
+                  alt=""
+                  src="weight.png"
+                />
+                <span>
+                  18.8 grams
+                </span>
+              </div>
+              <div
+                style={
+                  Object {
+                    "flex": 1,
+                  }
+                }
+              >
+                <img
+                  alt=""
+                  src="time.png"
+                />
+                <span>
+                  end
+                </span>
+              </div>
+              <div
+                style={
+                  Object {
+                    "flex": 1,
+                  }
+                }
+              >
+                <img
+                  alt=""
+                  src="label.png"
+                />
+                <span>
+                  flavour
+                </span>
+              </div>
+              <div>
+                <div
+                  className="undefined "
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "background": undefined,
+                    }
+                  }
+                >
+                  <p>
+                    Add
+                  </p>
+                  <div
+                    className="undefined "
+                    style={
+                      Object {
+                        "width": "NaN%",
+                      }
+                    }
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h2>
+            Malts
+          </h2>
+          <div>
+            <div>
+              <div
+                style={
+                  Object {
+                    "flex": 1,
+                  }
+                }
+              >
+                <span>
+                  Maris Otter Extra Pale
+                </span>
+              </div>
+              <div
+                style={
+                  Object {
+                    "flex": 1,
+                  }
+                }
+              >
+                <img
+                  alt=""
+                  src="weight.png"
+                />
+                <span>
+                  3.25 kilograms
+                </span>
+              </div>
+              <div>
+                <div
+                  className="undefined "
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "background": undefined,
+                    }
+                  }
+                >
+                  <p>
+                    Add
+                  </p>
+                  <div
+                    className="undefined "
+                    style={
+                      Object {
+                        "width": "NaN%",
+                      }
+                    }
+                  />
+                </div>
+              </div>
+            </div>
+            <div>
+              <div
+                style={
+                  Object {
+                    "flex": 1,
+                  }
+                }
+              >
+                <span>
+                  Caramalt
+                </span>
+              </div>
+              <div
+                style={
+                  Object {
+                    "flex": 1,
+                  }
+                }
+              >
+                <img
+                  alt=""
+                  src="weight.png"
+                />
+                <span>
+                  0.2 kilograms
+                </span>
+              </div>
+              <div>
+                <div
+                  className="undefined "
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "background": undefined,
+                    }
+                  }
+                >
+                  <p>
+                    Add
+                  </p>
+                  <div
+                    className="undefined "
+                    style={
+                      Object {
+                        "width": "NaN%",
+                      }
+                    }
+                  />
+                </div>
+              </div>
+            </div>
+            <div>
+              <div
+                style={
+                  Object {
+                    "flex": 1,
+                  }
+                }
+              >
+                <span>
+                  Munich
+                </span>
+              </div>
+              <div
+                style={
+                  Object {
+                    "flex": 1,
+                  }
+                }
+              >
+                <img
+                  alt=""
+                  src="weight.png"
+                />
+                <span>
+                  0.4 kilograms
+                </span>
+              </div>
+              <div>
+                <div
+                  className="undefined "
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "background": undefined,
+                    }
+                  }
+                >
+                  <p>
+                    Add
+                  </p>
+                  <div
+                    className="undefined "
+                    style={
+                      Object {
+                        "width": "NaN%",
+                      }
+                    }
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h2>
+            Methods
+          </h2>
+          <div>
+            <div>
+              <div
+                style={
+                  Object {
+                    "flex": 1,
+                  }
+                }
+              >
+                <div>
+                  <div>
+                    <div>
+                      <span>
+                        1
+                      </span>
+                    </div>
+                    <img
+                      alt=""
+                      src="temperature.png"
+                    />
+                    <span>
+                      69ºC
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                style={
+                  Object {
+                    "flex": 1,
+                  }
+                }
+              >
+                <img
+                  alt=""
+                  src="fermentation.png"
+                />
+                <span>
+                  18ºC
+                </span>
+              </div>
+              <div
+                style={
+                  Object {
+                    "flex": 2,
+                  }
+                }
+              >
+                <p>
+                  -
+                </p>
+              </div>
+              <div>
+                <div
+                  className="undefined "
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "background": undefined,
+                    }
+                  }
+                >
+                  <p>
+                    Add
+                  </p>
+                  <div
+                    className="undefined "
+                    style={
+                      Object {
+                        "width": "NaN%",
+                      }
+                    }
+                  />
+                </div>
+              </div>
+            </div>
+            <div>
+              <div
+                style={
+                  Object {
+                    "flex": 1,
+                  }
+                }
+              >
+                <div>
+                  <div>
+                    <div>
+                      <span>
+                        1
+                      </span>
+                    </div>
+                    <img
+                      alt=""
+                      src="temperature.png"
+                    />
+                    <span>
+                      69ºC
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                style={
+                  Object {
+                    "flex": 1,
+                  }
+                }
+              >
+                <img
+                  alt=""
+                  src="fermentation.png"
+                />
+                <span>
+                  18ºC
+                </span>
+              </div>
+              <div
+                style={
+                  Object {
+                    "flex": 2,
+                  }
+                }
+              >
+                <p>
+                  -
+                </p>
+              </div>
+              <div>
+                <div
+                  className="undefined "
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "background": undefined,
+                    }
+                  }
+                >
+                  <p>
+                    Add
+                  </p>
+                  <div
+                    className="undefined "
+                    style={
+                      Object {
+                        "width": "NaN%",
+                      }
+                    }
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
