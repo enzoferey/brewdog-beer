@@ -19,7 +19,13 @@ import Ovale from "components/Ovale";
 import BeerDetails from "components/BeerDetails";
 import Table from "components/Table";
 
-const Beer = ({ beers, match, setHopDone, setMaltDone, setMethodDone }) => {
+export const Beer = ({
+  beers,
+  match,
+  setHopDone,
+  setMaltDone,
+  setMethodDone,
+}) => {
   // Get the beer
   const urlBeer = match.params.beerName;
   const beerIndex = beers.findIndex(beer => beer.name === urlBeer);

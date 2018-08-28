@@ -1,5 +1,5 @@
 import React from "react";
-import Beer from "pages/Beer";
+import { Beer } from "pages/Beer";
 import NotFound from "pages/NotFound";
 
 const BeerRouter = withRouter(Beer);
