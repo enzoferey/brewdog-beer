@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+Array [
+  <div
+    className={undefined}
+    style={
+        Object {
+            "flex": 1,
+          }
+    }
+>
+    <span
+        className={undefined}
+    >
+        Maris Otter Extra Pale
+    </span>
+</div>,
+  <div
+    className={undefined}
+    style={
+        Object {
+            "flex": 1,
+          }
+    }
+>
+    <img
+        alt="Weight icon"
+        className={undefined}
+        src="weight.png"
+    />
+    <span
+        className={undefined}
+    >
+        3.3 kilograms
+    </span>
+</div>,
+]
+`;

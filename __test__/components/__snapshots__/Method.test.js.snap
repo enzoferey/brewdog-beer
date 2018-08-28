@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+Array [
+  <div
+    className={undefined}
+    style={
+        Object {
+            "flex": 1,
+          }
+    }
+>
+    <div
+        className={undefined}
+    >
+        <div
+            className={undefined}
+        >
+            <div
+                className={undefined}
+            >
+                <span>
+                    1
+                </span>
+            </div>
+            <img
+                alt="Weight icon"
+                className={undefined}
+                src="temperature.png"
+            />
+            <span
+                className={undefined}
+            >
+                64ºC
+            </span>
+            <span
+                className={undefined}
+            >
+                5s
+            </span>
+        </div>
+    </div>
+</div>,
+  <div
+    className={undefined}
+    style={
+        Object {
+            "flex": 1,
+          }
+    }
+>
+    <img
+        alt="Weight icon"
+        className={undefined}
+        src="fermentation.png"
+    />
+    <span
+        className={undefined}
+    >
+        19ºC
+    </span>
+</div>,
+  <div
+    className={undefined}
+    style={
+        Object {
+            "flex": 2,
+          }
+    }
+>
+    <p
+        className={undefined}
+    >
+        -
+    </p>
+</div>,
+]
+`;
