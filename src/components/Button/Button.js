@@ -71,7 +71,7 @@ class Button extends React.Component {
     const { done, waiting } = this.props;
 
     if (waiting) return "Add prev";
-    if (done) return "Added !";
+    if (done) return "✓ Added";
     if (countdown > 0) return `${countdown} s`;
     return "Add";
   };
