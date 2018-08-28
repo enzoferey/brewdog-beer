@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 import backArrow from "./back-arrow.png";
 
-import getGradientSVG from "utils/getGradientSVG";
+import getGradientSvg from "utils/getGradientSvg";
 import getGradient from "utils/getGradient";
 
 import NotFound from "pages/NotFound";
@@ -56,7 +56,7 @@ const Beer = ({ beers, match, setHopDone, setMaltDone, setMethodDone }) => {
   } = beer;
 
   // Get its gradient
-  const ovaleGradient = getGradientSVG(beerIndex);
+  const ovaleGradient = getGradientSvg(beerIndex);
   const gradient = getGradient(beerIndex);
 
   // Ambiguious requirement as method field is an object in the API

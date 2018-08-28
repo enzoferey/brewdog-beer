@@ -8,8 +8,8 @@ const gradients = [
   { from: theme.gradientYellowSvgFrom, to: theme.gradientYellowSvgTo },
 ];
 
-const getGradientSVG = index => {
+const getGradientSvg = index => {
   return gradients[index % 5];
 };
 
-export default getGradientSVG;
+export default getGradientSvg;
