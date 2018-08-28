@@ -41,6 +41,49 @@ export const hops = [
   },
 ];
 
+export const hopsNotAllStart = [
+  {
+    name: "Fuggles",
+    amount: {
+      value: 25,
+      unit: "grams",
+    },
+    add: "start",
+    attribute: "bitter",
+    done: true,
+  },
+  {
+    name: "First Gold",
+    amount: {
+      value: 25,
+      unit: "grams",
+    },
+    add: "start",
+    attribute: "bitter",
+    done: false,
+  },
+  {
+    name: "Fuggles",
+    amount: {
+      value: 37.5,
+      unit: "grams",
+    },
+    add: "middle",
+    attribute: "flavour",
+    done: false,
+  },
+  {
+    name: "Cascade",
+    amount: {
+      value: 37.5,
+      unit: "grams",
+    },
+    add: "end",
+    attribute: "flavour",
+    done: false,
+  },
+];
+
 export const hopsStart = [
   {
     name: "Fuggles",
@@ -60,6 +103,59 @@ export const hopsStart = [
     },
     add: "start",
     attribute: "bitter",
+    done: true,
+  },
+  {
+    name: "Fuggles",
+    amount: {
+      value: 37.5,
+      unit: "grams",
+    },
+    add: "middle",
+    attribute: "flavour",
+    done: false,
+  },
+  {
+    name: "Cascade",
+    amount: {
+      value: 37.5,
+      unit: "grams",
+    },
+    add: "end",
+    attribute: "flavour",
+    done: false,
+  },
+];
+
+export const hopsStartNotAllMiddle = [
+  {
+    name: "Fuggles",
+    amount: {
+      value: 25,
+      unit: "grams",
+    },
+    add: "start",
+    attribute: "bitter",
+    done: true,
+  },
+  {
+    name: "First Gold",
+    amount: {
+      value: 25,
+      unit: "grams",
+    },
+    add: "start",
+    attribute: "bitter",
+    done: true,
+  },
+  {
+    name: "Fuggles",
+    amount: {
+      value: 37.5,
+      unit: "grams",
+    },
+    add: "middle",
+    attribute: "flavour",
     done: true,
   },
   {

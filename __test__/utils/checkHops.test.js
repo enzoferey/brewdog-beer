@@ -23,3 +23,15 @@ describe('when neither all hops with "start" and "middle" labels are not done', 
     checkValue(mocks.hops, false, false);
   });
 });
+
+describe('when some hops with "start" labels are done', () => {
+  test("it should return { startDone: false }", () => {
+    checkValue(mocks.hopsNotAllStart, false, false);
+  });
+});
+
+describe('when some hops with "start" labels are done', () => {
+  test("it should return { middleDone: false }", () => {
+    checkValue(mocks.hopsStartNotAllMiddle, true, false);
+  });
+});
