@@ -14,7 +14,7 @@ const MashTemperature = ({ index, value, unit, duration }) => (
       <span>{index}</span>
     </div>
     <IconLabel icon={temperatureIcon} label={getBeautifulTemp(value, unit)} />
-    <span className={style.duration}>{`${duration}s`}</span>
+    {duration && <span className={style.duration}>{`${duration}s`}</span>}
   </div>
 );
 
