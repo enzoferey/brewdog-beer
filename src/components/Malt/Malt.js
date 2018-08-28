@@ -1,12 +1,21 @@
-import React from "react";
+import React, { Fragment } from "react";
 import PropTypes from "prop-types";
 import style from "./malt.scss";
 
+import weigthIcon from "components/Table/weight.png";
+
+import TableRowSection from "components/TableRowSection";
+import { IconLabel } from "components/TableRow";
+
 const Malt = ({ name, amount: { value, unit } }) => (
-  <div className={style.main}>
-    <p className={style.name}>{name}</p>
-    <p className={style.amount}>{`${value} ${unit}`}</p>
-  </div>
+  <Fragment>
+    <TableRowSection>
+      <span className={style.name}>{name}</span>
+    </TableRowSection>
+    <TableRowSection>
+      <IconLabel icon={weigthIcon} label={`${value} ${unit}`} />
+    </TableRowSection>
+  </Fragment>
 );
 
 Malt.propTypes = {
